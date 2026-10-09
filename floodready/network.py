@@ -36,15 +36,17 @@ class RoadGraph:
     length_m: np.ndarray
     minutes: np.ndarray       # travel time along the edge
     seg_id: np.ndarray        # id of the original road segment
+    shapes: list = None       # optional: (k, 2) metre coordinates of each edge, used to draw delivery routes on real road geometry
 
     @property
     def n_nodes(self):
         return len(self.node_xy)
 
-    def matrix(self, cut_segments=()):
-        """Symmetric sparse travel-time matrix with the given original segments removed."""
+    def matrix(self, cut_segments=(), weight="minutes"):
+        """Symmetric sparse matrix (travel minutes, or metres if weight="length_m") with the given original segments removed."""
+        w = self.minutes if weight == "minutes" else self.length_m
         alive = ~np.isin(self.seg_id, list(cut_segments)) if len(cut_segments) else np.ones(len(self.u), bool)
-        df = pd.DataFrame({"u": self.u[alive], "v": self.v[alive], "w": self.minutes[alive]})
+        df = pd.DataFrame({"u": self.u[alive], "v": self.v[alive], "w": w[alive]})
         df = df.assign(a=df[["u", "v"]].min(axis=1), b=df[["u", "v"]].max(axis=1)).groupby(["a", "b"], as_index=False).w.min()
         return csr_matrix((df.w, (df.a, df.b)), shape=(self.n_nodes, self.n_nodes))
 
@@ -53,11 +55,11 @@ class RoadGraph:
         return n, labels
 
 
-def _split_distances(lines):
+def _split_distances(lines, snap):
     """For every line, the distances along it at which it must be split."""
     tree = shapely.STRtree(lines)
     cuts = [{0.0, float(l.length)} for l in lines]
-    ii, jj = tree.query(lines, predicate="dwithin", distance=SNAP_M)
+    ii, jj = tree.query(lines, predicate="dwithin", distance=snap)
     for i, j in zip(ii, jj):
         if i == j:
             continue
@@ -71,16 +73,16 @@ def _split_distances(lines):
             cuts[i].add(float(li.project(Point(p))))
             cuts[j].add(float(lj.project(Point(p))))
         for end in (Point(li.coords[0]), Point(li.coords[-1])):  # T-junctions: our endpoint close to the other line
-            if lj.distance(end) <= SNAP_M:
+            if lj.distance(end) <= snap:
                 cuts[j].add(float(lj.project(end)))
     return cuts
 
 
-def build_road_graph(roads: gpd.GeoDataFrame) -> RoadGraph:
+def build_road_graph(roads: gpd.GeoDataFrame, snap_m: float = SNAP_M) -> RoadGraph:
     """roads: LineString geometries in a metric CRS with columns seg_id and speed_kmph."""
     lines = list(roads.geometry.values)
-    cuts = _split_distances(lines)
-    pieces = []  # (seg_id, start xy, end xy, length, speed)
+    cuts = _split_distances(lines, snap_m)
+    pieces = []  # (seg_id, start xy, end xy, length, speed, shape)
     for line, c, sid, spd in zip(lines, cuts, roads.seg_id.values, roads.speed_kmph.values):
         d = sorted(c)
         keep = [d[0]]
@@ -92,10 +94,10 @@ def build_road_graph(roads: gpd.GeoDataFrame) -> RoadGraph:
         for a, b in zip(keep[:-1], keep[1:]):
             p = substring(line, a, b)
             if p.length >= MIN_PIECE_M:
-                pieces.append((sid, p.coords[0], p.coords[-1], p.length, spd))
+                pieces.append((sid, p.coords[0], p.coords[-1], p.length, spd, np.asarray(p.coords)[:, :2]))
     ends = np.array([[p[1], p[2]] for p in pieces]).reshape(-1, 2)  # 2 per piece
     tree = cKDTree(ends)
-    pairs = tree.query_pairs(SNAP_M + 0.5, output_type="ndarray")
+    pairs = tree.query_pairs(snap_m + 0.5, output_type="ndarray")
     adj = csr_matrix((np.ones(len(pairs)), (pairs[:, 0], pairs[:, 1])), shape=(len(ends), len(ends)))
     _, label = connected_components(adj, directed=False)
     n_nodes = label.max() + 1
@@ -107,7 +109,8 @@ def build_road_graph(roads: gpd.GeoDataFrame) -> RoadGraph:
     length = np.array([p[3] for p in pieces])
     speed = np.array([p[4] for p in pieces], dtype=float)
     return RoadGraph(node_xy=node_xy, u=u[keep], v=v[keep], length_m=length[keep],
-                     minutes=(length / 1000.0 / speed * 60.0)[keep], seg_id=np.array([p[0] for p in pieces])[keep])
+                     minutes=(length / 1000.0 / speed * 60.0)[keep], seg_id=np.array([p[0] for p in pieces])[keep],
+                     shapes=[p[5] for p, k in zip(pieces, keep) if k])
 
 
 @dataclass
@@ -126,13 +129,13 @@ def _attach(points_xy, node_xy, node_ids=None):
     return ids[k], d / 1000.0 / ACCESS_SPEED_KMPH * 60.0
 
 
-def load_cachar(data_dir=DATA) -> District:
+def load_cachar(data_dir=DATA, snap_m: float = SNAP_M) -> District:
     gp = Path(data_dir) / "processed" / "cachar.gpkg"
     roads = gpd.read_file(gp, layer="roads")
     hab = gpd.read_file(gp, layer="habitations")
     fac = gpd.read_file(gp, layer="health_facilities")
     stock = pd.read_csv(Path(data_dir) / "synthetic" / "facilities_stock.csv")[["facility_id", "stock_units", "demand_per_day"]]
-    graph = build_road_graph(roads)
+    graph = build_road_graph(roads, snap_m)
     n_comp, labels = graph.components()
     main = np.flatnonzero(labels == np.bincount(labels).argmax())  # nodes of the largest component
     hnode, hacc = _attach(np.c_[hab.geometry.x, hab.geometry.y], graph.node_xy)

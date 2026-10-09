@@ -1,0 +1,676 @@
+severity,policy,metric,mean,ci_low,ci_high,n,config,fleet
+mild,none,unmet_units,11799.016000000001,11437.378665000002,12130.492135000002,20,single depot (Silchar centre),2
+mild,none,total_unmet_units,13264.298,12621.012140000003,13861.554095000001,20,single depot (Silchar centre),2
+mild,none,capture_rate,-3.009425402454435e-17,-7.523563506136088e-17,0.0,20,single depot (Silchar centre),2
+mild,none,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),2
+mild,none,unmet_gini,0.6911175547579208,0.6877254471832763,0.6946053556783649,20,single depot (Silchar centre),2
+mild,proportional,unmet_units,5262.612221561321,5134.7287151450255,5384.646766441586,20,single depot (Silchar centre),2
+mild,proportional,total_unmet_units,6727.894221561321,6375.331630234174,7080.227688204299,20,single depot (Silchar centre),2
+mild,proportional,capture_rate,0.5577313811071776,0.538883851728764,0.5751292842340554,20,single depot (Silchar centre),2
+mild,proportional,waste_share,0.6862980099361351,0.6738453473638575,0.6992767905601033,20,single depot (Silchar centre),2
+mild,proportional,unmet_gini,0.800573543797262,0.7967769636646478,0.8044158158218031,20,single depot (Silchar centre),2
+mild,nearest_first,unmet_units,4263.4439999999995,3816.6809800000005,4671.975434999999,20,single depot (Silchar centre),2
+mild,nearest_first,total_unmet_units,5728.726000000001,4991.205360000001,6415.663184999999,20,single depot (Silchar centre),2
+mild,nearest_first,capture_rate,0.6484249727581672,0.6251718946987757,0.6739051354344155,20,single depot (Silchar centre),2
+mild,nearest_first,waste_share,0.1274591081755075,0.11324168432280389,0.14246255098162872,20,single depot (Silchar centre),2
+mild,nearest_first,unmet_gini,0.8547078446022811,0.8430130438736333,0.8674241941123876,20,single depot (Silchar centre),2
+mild,nearest_first_post,unmet_units,2062.7877999999996,1942.4583749999997,2182.98125,20,single depot (Silchar centre),2
+mild,nearest_first_post,total_unmet_units,3528.0697999999998,3142.4381550000003,3918.947545000001,20,single depot (Silchar centre),2
+mild,nearest_first_post,capture_rate,0.8328107805664497,0.8233301216360562,0.8416674641411545,20,single depot (Silchar centre),2
+mild,nearest_first_post,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),2
+mild,nearest_first_post,unmet_gini,0.9204592457710745,0.9170441122898133,0.9242011511400549,20,single depot (Silchar centre),2
+mild,access_opt,unmet_units,738.5744000000001,646.1535200000001,832.8547450000001,20,single depot (Silchar centre),2
+mild,access_opt,total_unmet_units,2203.8563999999997,1839.8313900000003,2573.8361499999996,20,single depot (Silchar centre),2
+mild,access_opt,capture_rate,0.946704275738794,0.9417472492771078,0.9516500285520645,20,single depot (Silchar centre),2
+mild,access_opt,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),2
+mild,access_opt,unmet_gini,0.9088730777605342,0.906363118312352,0.9113028887743978,20,single depot (Silchar centre),2
+moderate,none,unmet_units,11901.213800000001,11396.391850000004,12374.847670000001,20,single depot (Silchar centre),2
+moderate,none,total_unmet_units,22083.562200000008,21184.548185000003,22942.69188,20,single depot (Silchar centre),2
+moderate,none,capture_rate,1.6993274831042845e-17,-2.315148566826387e-16,2.6045714385631534e-16,20,single depot (Silchar centre),2
+moderate,none,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),2
+moderate,none,unmet_gini,0.6891665485915153,0.6817340944773004,0.6964034227246525,20,single depot (Silchar centre),2
+moderate,proportional,unmet_units,8545.624502249058,7799.083456327551,9172.872714692832,20,single depot (Silchar centre),2
+moderate,proportional,total_unmet_units,18727.972902249057,17291.441016941884,20013.17395,20,single depot (Silchar centre),2
+moderate,proportional,capture_rate,0.9591509812503546,0.9059767552355154,0.9904630133475555,20,single depot (Silchar centre),2
+moderate,proportional,waste_share,0.8715552362243721,0.8478198993950566,0.8902014888086961,20,single depot (Silchar centre),2
+moderate,proportional,unmet_gini,0.7850452692795883,0.7777969129267781,0.7923860236842227,20,single depot (Silchar centre),2
+moderate,nearest_first,unmet_units,9350.968,8795.238484999998,9877.60252,20,single depot (Silchar centre),2
+moderate,nearest_first,total_unmet_units,19533.316400000003,18312.760995,20674.951935000005,20,single depot (Silchar centre),2
+moderate,nearest_first,capture_rate,0.7413800627821485,0.6981653017271554,0.777407185435109,20,single depot (Silchar centre),2
+moderate,nearest_first,waste_share,0.21505802955065753,0.18353137933337965,0.24583316909488076,20,single depot (Silchar centre),2
+moderate,nearest_first,unmet_gini,0.7522229819097361,0.7447096118040669,0.7591742347422361,20,single depot (Silchar centre),2
+moderate,nearest_first_post,unmet_units,8364.112600000002,7517.051139999999,9113.92466,20,single depot (Silchar centre),2
+moderate,nearest_first_post,total_unmet_units,18546.460999999996,16957.538405,19914.61083,20,single depot (Silchar centre),2
+moderate,nearest_first_post,capture_rate,0.9867961570776455,0.9603884712329359,1.0000000000000004,20,single depot (Silchar centre),2
+moderate,nearest_first_post,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),2
+moderate,nearest_first_post,unmet_gini,0.7936488088092222,0.7833488920499235,0.8055798940829156,20,single depot (Silchar centre),2
+moderate,access_opt,unmet_units,8247.806400000001,7254.314754999999,9099.699320000002,20,single depot (Silchar centre),2
+moderate,access_opt,total_unmet_units,18430.154799999997,16698.316055000003,19893.88487,20,single depot (Silchar centre),2
+moderate,access_opt,capture_rate,0.9966112482543912,0.9898337447631727,1.0000000000000004,20,single depot (Silchar centre),2
+moderate,access_opt,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),2
+moderate,access_opt,unmet_gini,0.7938127363200251,0.7833488920499235,0.8060549813402839,20,single depot (Silchar centre),2
+severe,none,unmet_units,7819.7357999999995,7235.11524,8367.375789999998,20,single depot (Silchar centre),2
+severe,none,total_unmet_units,28624.802600000003,27710.02864,29709.970315,20,single depot (Silchar centre),2
+severe,none,capture_rate,1.8906717472820221e-16,-3.7688542687857495e-16,7.599504576957928e-16,7,single depot (Silchar centre),2
+severe,none,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),2
+severe,none,unmet_gini,0.7296651549478408,0.7198525358262373,0.7405206065674534,20,single depot (Silchar centre),2
+severe,proportional,unmet_units,7324.609399999999,6863.238014999999,7709.12587,20,single depot (Silchar centre),2
+severe,proportional,total_unmet_units,28129.676199999998,26978.834004999997,29396.64927,20,single depot (Silchar centre),2
+severe,proportional,capture_rate,0.979641987326416,0.9511235519669615,1.0000000000000007,7,single depot (Silchar centre),2
+severe,proportional,waste_share,0.3272720238506534,0.1406541690507938,0.5162584031831928,20,single depot (Silchar centre),2
+severe,proportional,unmet_gini,0.756478740344597,0.7415543144788668,0.77232747105116,20,single depot (Silchar centre),2
+severe,nearest_first,unmet_units,7401.734000000001,6940.290995000001,7795.38499,20,single depot (Silchar centre),2
+severe,nearest_first,total_unmet_units,28206.800799999997,27100.653625,29444.143805000003,20,single depot (Silchar centre),2
+severe,nearest_first,capture_rate,0.8271763210062926,0.7979630716847645,0.8563748390791805,7,single depot (Silchar centre),2
+severe,nearest_first,waste_share,0.13139009544845429,0.059983397388210735,0.21377838336416044,20,single depot (Silchar centre),2
+severe,nearest_first,unmet_gini,0.7490671371805931,0.7374359480248786,0.7614648372808974,20,single depot (Silchar centre),2
+severe,nearest_first_post,unmet_units,7313.8894,6856.999345,7689.917625,20,single depot (Silchar centre),2
+severe,nearest_first_post,total_unmet_units,28118.956199999997,26962.620005,29388.003930000003,20,single depot (Silchar centre),2
+severe,nearest_first_post,capture_rate,1.0000000000000004,0.9999999999999998,1.000000000000001,7,single depot (Silchar centre),2
+severe,nearest_first_post,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),2
+severe,nearest_first_post,unmet_gini,0.7577275770369442,0.7425851615869422,0.773693238312915,20,single depot (Silchar centre),2
+severe,access_opt,unmet_units,7313.8894,6856.999345,7689.917625,20,single depot (Silchar centre),2
+severe,access_opt,total_unmet_units,28118.956199999997,26962.620005,29388.003930000003,20,single depot (Silchar centre),2
+severe,access_opt,capture_rate,1.0000000000000004,0.9999999999999998,1.000000000000001,7,single depot (Silchar centre),2
+severe,access_opt,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),2
+severe,access_opt,unmet_gini,0.7577275770369442,0.7425851615869422,0.773693238312915,20,single depot (Silchar centre),2
+mild,none,unmet_units,11799.016000000001,11437.378665000002,12130.492135000002,20,single depot (Silchar centre),4
+mild,none,total_unmet_units,13264.298,12621.012140000003,13861.554095000001,20,single depot (Silchar centre),4
+mild,none,capture_rate,-3.009425402454435e-17,-7.523563506136088e-17,0.0,20,single depot (Silchar centre),4
+mild,none,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),4
+mild,none,unmet_gini,0.6911175547579208,0.6877254471832763,0.6946053556783649,20,single depot (Silchar centre),4
+mild,proportional,unmet_units,3447.0555174248766,3314.7201064198844,3581.5519231333587,20,single depot (Silchar centre),4
+mild,proportional,total_unmet_units,4912.337517424876,4482.53089218622,5322.932789583322,20,single depot (Silchar centre),4
+mild,proportional,capture_rate,0.7151218976428084,0.7082742413033081,0.7216732013102798,20,single depot (Silchar centre),4
+mild,proportional,waste_share,0.6812640381259357,0.6717109623810674,0.691212446897028,20,single depot (Silchar centre),4
+mild,proportional,unmet_gini,0.857395720609013,0.8533442823985814,0.8617653672644553,20,single depot (Silchar centre),4
+mild,nearest_first,unmet_units,2957.7954,2406.6503249999996,3470.1363949999995,20,single depot (Silchar centre),4
+mild,nearest_first,total_unmet_units,4423.0774,3575.9570750000003,5238.313095,20,single depot (Silchar centre),4
+mild,nearest_first,capture_rate,0.7614917069131553,0.7276966297410984,0.7987261765349206,20,single depot (Silchar centre),4
+mild,nearest_first,waste_share,0.14235919668620822,0.12634730122737936,0.15888779341475145,20,single depot (Silchar centre),4
+mild,nearest_first,unmet_gini,0.9074615990286319,0.8939502722203981,0.9216245887974258,20,single depot (Silchar centre),4
+mild,nearest_first_post,unmet_units,122.601,24.5202,220.6818,20,single depot (Silchar centre),4
+mild,nearest_first_post,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,single depot (Silchar centre),4
+mild,nearest_first_post,capture_rate,1.0,1.0,1.0,20,single depot (Silchar centre),4
+mild,nearest_first_post,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),4
+mild,nearest_first_post,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,single depot (Silchar centre),4
+mild,access_opt,unmet_units,122.601,24.5202,220.6818,20,single depot (Silchar centre),4
+mild,access_opt,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,single depot (Silchar centre),4
+mild,access_opt,capture_rate,1.0,1.0,1.0,20,single depot (Silchar centre),4
+mild,access_opt,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),4
+mild,access_opt,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,single depot (Silchar centre),4
+moderate,none,unmet_units,11901.213800000001,11396.391850000004,12374.847670000001,20,single depot (Silchar centre),4
+moderate,none,total_unmet_units,22083.562200000008,21184.548185000003,22942.69188,20,single depot (Silchar centre),4
+moderate,none,capture_rate,1.6993274831042845e-17,-2.315148566826387e-16,2.6045714385631534e-16,20,single depot (Silchar centre),4
+moderate,none,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),4
+moderate,none,unmet_gini,0.6891665485915153,0.6817340944773004,0.6964034227246525,20,single depot (Silchar centre),4
+moderate,proportional,unmet_units,8474.110570576047,7702.189583528804,9156.334045000001,20,single depot (Silchar centre),4
+moderate,proportional,total_unmet_units,18656.458970576048,17171.948803199342,19978.86205,20,single depot (Silchar centre),4
+moderate,proportional,capture_rate,0.9651860486825136,0.924081957531992,0.9904630133475555,20,single depot (Silchar centre),4
+moderate,proportional,waste_share,0.871130574900244,0.8465454524768171,0.8902014888086961,20,single depot (Silchar centre),4
+moderate,proportional,unmet_gini,0.7879591734857898,0.7786450938852287,0.7983646299153915,20,single depot (Silchar centre),4
+moderate,nearest_first,unmet_units,9253.078800000001,8602.733495,9839.019645,20,single depot (Silchar centre),4
+moderate,nearest_first,total_unmet_units,19435.427200000002,18097.41686,20642.787544999992,20,single depot (Silchar centre),4
+moderate,nearest_first,capture_rate,0.7496409415935849,0.7199195190515156,0.7774354212095577,20,single depot (Silchar centre),4
+moderate,nearest_first,waste_share,0.2134008358952831,0.1821168442132038,0.24319978122670607,20,single depot (Silchar centre),4
+moderate,nearest_first,unmet_gini,0.7541782726617319,0.7450817393497103,0.7638455769102304,20,single depot (Silchar centre),4
+moderate,nearest_first_post,unmet_units,8210.675600000002,7165.060085000002,9099.699320000002,20,single depot (Silchar centre),4
+moderate,nearest_first_post,total_unmet_units,18393.023999999998,16603.732775,19893.88487,20,single depot (Silchar centre),4
+moderate,nearest_first_post,capture_rate,0.9997447199649748,0.9992341598949241,1.0000000000000004,20,single depot (Silchar centre),4
+moderate,nearest_first_post,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),4
+moderate,nearest_first_post,unmet_gini,0.797504704389406,0.7834259321943666,0.817264416380586,20,single depot (Silchar centre),4
+moderate,access_opt,unmet_units,8209.521200000001,7161.749374999999,9099.699320000002,20,single depot (Silchar centre),4
+moderate,access_opt,total_unmet_units,18391.869599999998,16601.452835,19893.88487,20,single depot (Silchar centre),4
+moderate,access_opt,capture_rate,0.9998421398897461,0.999526419669238,1.0000000000000004,20,single depot (Silchar centre),4
+moderate,access_opt,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),4
+moderate,access_opt,unmet_gini,0.7978492698135395,0.7834259321943666,0.8185011410022729,20,single depot (Silchar centre),4
+severe,none,unmet_units,7819.7357999999995,7235.11524,8367.375789999998,20,single depot (Silchar centre),4
+severe,none,total_unmet_units,28624.802600000003,27710.02864,29709.970315,20,single depot (Silchar centre),4
+severe,none,capture_rate,1.8906717472820221e-16,-3.7688542687857495e-16,7.599504576957928e-16,7,single depot (Silchar centre),4
+severe,none,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),4
+severe,none,unmet_gini,0.7296651549478408,0.7198525358262373,0.7405206065674534,20,single depot (Silchar centre),4
+severe,proportional,unmet_units,7324.609399999999,6863.238014999999,7709.12587,20,single depot (Silchar centre),4
+severe,proportional,total_unmet_units,28129.676199999998,26978.834004999997,29396.64927,20,single depot (Silchar centre),4
+severe,proportional,capture_rate,0.979641987326416,0.9511235519669615,1.0000000000000007,7,single depot (Silchar centre),4
+severe,proportional,waste_share,0.3272720238506534,0.1406541690507938,0.5162584031831928,20,single depot (Silchar centre),4
+severe,proportional,unmet_gini,0.756478740344597,0.7415543144788668,0.77232747105116,20,single depot (Silchar centre),4
+severe,nearest_first,unmet_units,7401.734000000001,6940.290995000001,7795.38499,20,single depot (Silchar centre),4
+severe,nearest_first,total_unmet_units,28206.800799999997,27100.653625,29444.143805000003,20,single depot (Silchar centre),4
+severe,nearest_first,capture_rate,0.8271763210062926,0.7979630716847645,0.8563748390791805,7,single depot (Silchar centre),4
+severe,nearest_first,waste_share,0.13139009544845429,0.059983397388210735,0.21377838336416044,20,single depot (Silchar centre),4
+severe,nearest_first,unmet_gini,0.7490671371805931,0.7374359480248786,0.7614648372808974,20,single depot (Silchar centre),4
+severe,nearest_first_post,unmet_units,7313.8894,6856.999345,7689.917625,20,single depot (Silchar centre),4
+severe,nearest_first_post,total_unmet_units,28118.956199999997,26962.620005,29388.003930000003,20,single depot (Silchar centre),4
+severe,nearest_first_post,capture_rate,1.0000000000000004,0.9999999999999998,1.000000000000001,7,single depot (Silchar centre),4
+severe,nearest_first_post,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),4
+severe,nearest_first_post,unmet_gini,0.7577275770369442,0.7425851615869422,0.773693238312915,20,single depot (Silchar centre),4
+severe,access_opt,unmet_units,7313.8894,6856.999345,7689.917625,20,single depot (Silchar centre),4
+severe,access_opt,total_unmet_units,28118.956199999997,26962.620005,29388.003930000003,20,single depot (Silchar centre),4
+severe,access_opt,capture_rate,1.0000000000000004,0.9999999999999998,1.000000000000001,7,single depot (Silchar centre),4
+severe,access_opt,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),4
+severe,access_opt,unmet_gini,0.7577275770369442,0.7425851615869422,0.773693238312915,20,single depot (Silchar centre),4
+mild,none,unmet_units,11799.016000000001,11437.378665000002,12130.492135000002,20,single depot (Silchar centre),8
+mild,none,total_unmet_units,13264.298,12621.012140000003,13861.554095000001,20,single depot (Silchar centre),8
+mild,none,capture_rate,-3.009425402454435e-17,-7.523563506136088e-17,0.0,20,single depot (Silchar centre),8
+mild,none,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),8
+mild,none,unmet_gini,0.6911175547579208,0.6877254471832763,0.6946053556783649,20,single depot (Silchar centre),8
+mild,proportional,unmet_units,1933.2154771624178,1709.7029715199612,2146.248663746878,20,single depot (Silchar centre),8
+mild,proportional,total_unmet_units,3398.4974771624175,2875.4555054877583,3904.2497332541675,20,single depot (Silchar centre),8
+mild,proportional,capture_rate,0.8463125834979358,0.83588062965761,0.8576492270050483,20,single depot (Silchar centre),8
+mild,proportional,waste_share,0.6959322480807351,0.6908623369834624,0.7009500674507066,20,single depot (Silchar centre),8
+mild,proportional,unmet_gini,0.9176657757001182,0.9141203948435868,0.9213713277357016,20,single depot (Silchar centre),8
+mild,nearest_first,unmet_units,2957.7954,2406.6503249999996,3470.1363949999995,20,single depot (Silchar centre),8
+mild,nearest_first,total_unmet_units,4423.0774,3575.9570750000003,5238.313095,20,single depot (Silchar centre),8
+mild,nearest_first,capture_rate,0.7614917069131553,0.7276966297410984,0.7987261765349206,20,single depot (Silchar centre),8
+mild,nearest_first,waste_share,0.14235919668620822,0.12634730122737936,0.15888779341475145,20,single depot (Silchar centre),8
+mild,nearest_first,unmet_gini,0.9074615990286319,0.8939502722203981,0.9216245887974258,20,single depot (Silchar centre),8
+mild,nearest_first_post,unmet_units,122.601,24.5202,220.6818,20,single depot (Silchar centre),8
+mild,nearest_first_post,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,single depot (Silchar centre),8
+mild,nearest_first_post,capture_rate,1.0,1.0,1.0,20,single depot (Silchar centre),8
+mild,nearest_first_post,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),8
+mild,nearest_first_post,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,single depot (Silchar centre),8
+mild,access_opt,unmet_units,122.601,24.5202,220.6818,20,single depot (Silchar centre),8
+mild,access_opt,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,single depot (Silchar centre),8
+mild,access_opt,capture_rate,1.0,1.0,1.0,20,single depot (Silchar centre),8
+mild,access_opt,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),8
+mild,access_opt,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,single depot (Silchar centre),8
+moderate,none,unmet_units,11901.213800000001,11396.391850000004,12374.847670000001,20,single depot (Silchar centre),8
+moderate,none,total_unmet_units,22083.562200000008,21184.548185000003,22942.69188,20,single depot (Silchar centre),8
+moderate,none,capture_rate,1.6993274831042845e-17,-2.315148566826387e-16,2.6045714385631534e-16,20,single depot (Silchar centre),8
+moderate,none,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),8
+moderate,none,unmet_gini,0.6891665485915153,0.6817340944773004,0.6964034227246525,20,single depot (Silchar centre),8
+moderate,proportional,unmet_units,8370.610843350123,7467.356642784,9153.72725226637,20,single depot (Silchar centre),8
+moderate,proportional,total_unmet_units,18552.95924335012,16903.025140517628,19960.12429608375,20,single depot (Silchar centre),8
+moderate,proportional,capture_rate,0.9739204004151876,0.9513907160493167,0.9904630133475555,20,single depot (Silchar centre),8
+moderate,proportional,waste_share,0.8712606240811793,0.846932348790099,0.8902014888086961,20,single depot (Silchar centre),8
+moderate,proportional,unmet_gini,0.7900862035814316,0.7786450938852287,0.8042240537346684,20,single depot (Silchar centre),8
+moderate,nearest_first,unmet_units,9242.615600000001,8581.808849999998,9838.758065000002,20,single depot (Silchar centre),8
+moderate,nearest_first,total_unmet_units,19424.964,18085.807975,20642.787544999992,20,single depot (Silchar centre),8
+moderate,nearest_first,capture_rate,0.7505239320274613,0.7218168868764999,0.7774354212095577,20,single depot (Silchar centre),8
+moderate,nearest_first,waste_share,0.21545060543151312,0.18378717407874878,0.24656607114009316,20,single depot (Silchar centre),8
+moderate,nearest_first,unmet_gini,0.755309075907632,0.7453203634393084,0.7669428230754206,20,single depot (Silchar centre),8
+moderate,nearest_first_post,unmet_units,8207.650600000003,7156.18434,9099.699320000002,20,single depot (Silchar centre),8
+moderate,nearest_first_post,total_unmet_units,18389.998999999996,16597.758400000002,19893.88487,20,single depot (Silchar centre),8
+moderate,nearest_first_post,capture_rate,1.0000000000000002,1.0,1.0000000000000004,20,single depot (Silchar centre),8
+moderate,nearest_first_post,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),8
+moderate,nearest_first_post,unmet_gini,0.7981340926007799,0.7834259321943666,0.819640432151234,20,single depot (Silchar centre),8
+moderate,access_opt,unmet_units,8207.650600000003,7156.18434,9099.699320000002,20,single depot (Silchar centre),8
+moderate,access_opt,total_unmet_units,18389.998999999996,16597.758400000002,19893.88487,20,single depot (Silchar centre),8
+moderate,access_opt,capture_rate,1.0000000000000002,1.0,1.0000000000000004,20,single depot (Silchar centre),8
+moderate,access_opt,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),8
+moderate,access_opt,unmet_gini,0.7981340926007799,0.7834259321943666,0.819640432151234,20,single depot (Silchar centre),8
+severe,none,unmet_units,7819.7357999999995,7235.11524,8367.375789999998,20,single depot (Silchar centre),8
+severe,none,total_unmet_units,28624.802600000003,27710.02864,29709.970315,20,single depot (Silchar centre),8
+severe,none,capture_rate,1.8906717472820221e-16,-3.7688542687857495e-16,7.599504576957928e-16,7,single depot (Silchar centre),8
+severe,none,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),8
+severe,none,unmet_gini,0.7296651549478408,0.7198525358262373,0.7405206065674534,20,single depot (Silchar centre),8
+severe,proportional,unmet_units,7324.609399999999,6863.238014999999,7709.12587,20,single depot (Silchar centre),8
+severe,proportional,total_unmet_units,28129.676199999998,26978.834004999997,29396.64927,20,single depot (Silchar centre),8
+severe,proportional,capture_rate,0.979641987326416,0.9511235519669615,1.0000000000000007,7,single depot (Silchar centre),8
+severe,proportional,waste_share,0.3272720238506534,0.1406541690507938,0.5162584031831928,20,single depot (Silchar centre),8
+severe,proportional,unmet_gini,0.756478740344597,0.7415543144788668,0.77232747105116,20,single depot (Silchar centre),8
+severe,nearest_first,unmet_units,7401.734000000001,6940.290995000001,7795.38499,20,single depot (Silchar centre),8
+severe,nearest_first,total_unmet_units,28206.800799999997,27100.653625,29444.143805000003,20,single depot (Silchar centre),8
+severe,nearest_first,capture_rate,0.8271763210062926,0.7979630716847645,0.8563748390791805,7,single depot (Silchar centre),8
+severe,nearest_first,waste_share,0.13139009544845429,0.059983397388210735,0.21377838336416044,20,single depot (Silchar centre),8
+severe,nearest_first,unmet_gini,0.7490671371805931,0.7374359480248786,0.7614648372808974,20,single depot (Silchar centre),8
+severe,nearest_first_post,unmet_units,7313.8894,6856.999345,7689.917625,20,single depot (Silchar centre),8
+severe,nearest_first_post,total_unmet_units,28118.956199999997,26962.620005,29388.003930000003,20,single depot (Silchar centre),8
+severe,nearest_first_post,capture_rate,1.0000000000000004,0.9999999999999998,1.000000000000001,7,single depot (Silchar centre),8
+severe,nearest_first_post,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),8
+severe,nearest_first_post,unmet_gini,0.7577275770369442,0.7425851615869422,0.773693238312915,20,single depot (Silchar centre),8
+severe,access_opt,unmet_units,7313.8894,6856.999345,7689.917625,20,single depot (Silchar centre),8
+severe,access_opt,total_unmet_units,28118.956199999997,26962.620005,29388.003930000003,20,single depot (Silchar centre),8
+severe,access_opt,capture_rate,1.0000000000000004,0.9999999999999998,1.000000000000001,7,single depot (Silchar centre),8
+severe,access_opt,waste_share,0.0,0.0,0.0,20,single depot (Silchar centre),8
+severe,access_opt,unmet_gini,0.7577275770369442,0.7425851615869422,0.773693238312915,20,single depot (Silchar centre),8
+mild,none,unmet_units,11799.016000000001,11437.378665000002,12130.492135000002,20,single resilient depot,2
+mild,none,total_unmet_units,13264.298,12621.012140000003,13861.554095000001,20,single resilient depot,2
+mild,none,capture_rate,-3.009425402454435e-17,-7.523563506136088e-17,0.0,20,single resilient depot,2
+mild,none,waste_share,0.0,0.0,0.0,20,single resilient depot,2
+mild,none,unmet_gini,0.6911175547579208,0.6877254471832763,0.6946053556783649,20,single resilient depot,2
+mild,proportional,unmet_units,4762.640221561319,4557.698279956247,4960.631372102605,20,single resilient depot,2
+mild,proportional,total_unmet_units,6227.922221561319,5727.155828674169,6705.209342993693,20,single resilient depot,2
+mild,proportional,capture_rate,0.6024281286932882,0.592097057356761,0.6118455802262329,20,single resilient depot,2
+mild,proportional,waste_share,0.6628169780116551,0.6531763553274732,0.6732927329060523,20,single resilient depot,2
+mild,proportional,unmet_gini,0.8151922380596316,0.8092769588388282,0.8216598818196948,20,single resilient depot,2
+mild,nearest_first,unmet_units,4089.3838000000005,3630.1439,4517.416915,20,single resilient depot,2
+mild,nearest_first,total_unmet_units,5554.665800000001,4794.988725000001,6282.743775,20,single resilient depot,2
+mild,nearest_first,capture_rate,0.6634302524473308,0.6387883251768037,0.6903862934057203,20,single resilient depot,2
+mild,nearest_first,waste_share,0.1282102683533523,0.11352308604436623,0.14370866048063866,20,single resilient depot,2
+mild,nearest_first,unmet_gini,0.8591020498955301,0.8462079855339812,0.8732762830500586,20,single resilient depot,2
+mild,nearest_first_post,unmet_units,1809.8822,1689.10953,1945.8144949999992,20,single resilient depot,2
+mild,nearest_first_post,total_unmet_units,3275.1642,2921.869925,3645.7221600000003,20,single resilient depot,2
+mild,nearest_first_post,capture_rate,0.8541455845377837,0.8412591870328319,0.8663158122866337,20,single resilient depot,2
+mild,nearest_first_post,waste_share,0.0,0.0,0.0,20,single resilient depot,2
+mild,nearest_first_post,unmet_gini,0.9284936335729761,0.9249791990336967,0.932229742893654,20,single resilient depot,2
+mild,access_opt,unmet_units,594.8864000000001,495.9127550000001,698.2365700000003,20,single resilient depot,2
+mild,access_opt,total_unmet_units,2060.1684,1681.3266300000005,2444.0922649999998,20,single resilient depot,2
+mild,access_opt,capture_rate,0.9591814248130118,0.9555108425546046,0.962904069244669,20,single resilient depot,2
+mild,access_opt,waste_share,0.0,0.0,0.0,20,single resilient depot,2
+mild,access_opt,unmet_gini,0.9206771286479432,0.9178479197306181,0.9233742579036888,20,single resilient depot,2
+moderate,none,unmet_units,11901.213800000001,11396.391850000004,12374.847670000001,20,single resilient depot,2
+moderate,none,total_unmet_units,22083.562200000008,21184.548185000003,22942.69188,20,single resilient depot,2
+moderate,none,capture_rate,1.6993274831042845e-17,-2.315148566826387e-16,2.6045714385631534e-16,20,single resilient depot,2
+moderate,none,waste_share,0.0,0.0,0.0,20,single resilient depot,2
+moderate,none,unmet_gini,0.6891665485915153,0.6817340944773004,0.6964034227246525,20,single resilient depot,2
+moderate,proportional,unmet_units,8545.624502249058,7799.083456327551,9172.872714692832,20,single resilient depot,2
+moderate,proportional,total_unmet_units,18727.972902249057,17291.441016941884,20013.17395,20,single resilient depot,2
+moderate,proportional,capture_rate,0.9591509812503546,0.9059767552355154,0.9904630133475555,20,single resilient depot,2
+moderate,proportional,waste_share,0.8715552362243721,0.8478198993950566,0.8902014888086961,20,single resilient depot,2
+moderate,proportional,unmet_gini,0.7850452692795883,0.7777969129267781,0.7923860236842227,20,single resilient depot,2
+moderate,nearest_first,unmet_units,9350.968,8795.238484999998,9877.60252,20,single resilient depot,2
+moderate,nearest_first,total_unmet_units,19533.316400000003,18312.760995,20674.951935000005,20,single resilient depot,2
+moderate,nearest_first,capture_rate,0.7413800627821485,0.6981653017271554,0.777407185435109,20,single resilient depot,2
+moderate,nearest_first,waste_share,0.21505802955065753,0.18353137933337965,0.24583316909488076,20,single resilient depot,2
+moderate,nearest_first,unmet_gini,0.7522229819097361,0.7447096118040669,0.7591742347422361,20,single resilient depot,2
+moderate,nearest_first_post,unmet_units,8364.112600000002,7517.051139999999,9113.92466,20,single resilient depot,2
+moderate,nearest_first_post,total_unmet_units,18546.460999999996,16957.538405,19914.61083,20,single resilient depot,2
+moderate,nearest_first_post,capture_rate,0.9867961570776455,0.9603884712329359,1.0000000000000004,20,single resilient depot,2
+moderate,nearest_first_post,waste_share,0.0,0.0,0.0,20,single resilient depot,2
+moderate,nearest_first_post,unmet_gini,0.7936488088092222,0.7833488920499235,0.8055798940829156,20,single resilient depot,2
+moderate,access_opt,unmet_units,8249.4768,7259.284195,9099.699320000002,20,single resilient depot,2
+moderate,access_opt,total_unmet_units,18431.8252,16701.698615,19893.88487,20,single resilient depot,2
+moderate,access_opt,capture_rate,0.9964702830410006,0.9894108491230013,1.0000000000000004,20,single resilient depot,2
+moderate,access_opt,waste_share,0.0,0.0,0.0,20,single resilient depot,2
+moderate,access_opt,unmet_gini,0.7937057588991427,0.7833488920499235,0.8058076944425981,20,single resilient depot,2
+severe,none,unmet_units,7819.7357999999995,7235.11524,8367.375789999998,20,single resilient depot,2
+severe,none,total_unmet_units,28624.802600000003,27710.02864,29709.970315,20,single resilient depot,2
+severe,none,capture_rate,-9.815548131512742e-17,-4.587987819464555e-16,2.7066210599959377e-16,19,single resilient depot,2
+severe,none,waste_share,0.0,0.0,0.0,20,single resilient depot,2
+severe,none,unmet_gini,0.7296651549478408,0.7198525358262373,0.7405206065674534,20,single resilient depot,2
+severe,proportional,unmet_units,6630.390399999999,6153.158855,7078.168845,20,single resilient depot,2
+severe,proportional,total_unmet_units,27435.457200000004,26411.42785,28660.122999999992,20,single resilient depot,2
+severe,proportional,capture_rate,0.9500011962223528,0.9233745190277787,0.9754633031123213,19,single resilient depot,2
+severe,proportional,waste_share,0.942856529712159,0.9361116143046233,0.9506635847896627,20,single resilient depot,2
+severe,proportional,unmet_gini,0.79645119343299,0.7887475068983268,0.8049015684897177,20,single resilient depot,2
+severe,nearest_first,unmet_units,6929.328000000001,6469.576485,7342.847885000001,20,single resilient depot,2
+severe,nearest_first,total_unmet_units,27734.394800000002,26696.712679999997,28950.778965,20,single resilient depot,2
+severe,nearest_first,capture_rate,0.7038958597928139,0.6334767632915433,0.7673036112560944,19,single resilient depot,2
+severe,nearest_first,waste_share,0.49665643461262887,0.43490156301002697,0.565986796138708,20,single resilient depot,2
+severe,nearest_first,unmet_gini,0.7706522063737441,0.7613391155801588,0.7795667270657547,20,single resilient depot,2
+severe,nearest_first_post,unmet_units,6565.8292,6081.796564999999,7029.253265,20,single resilient depot,2
+severe,nearest_first_post,total_unmet_units,27370.896000000008,26362.223920000004,28585.892460000003,20,single resilient depot,2
+severe,nearest_first_post,capture_rate,1.0000000000000004,0.9999999999999998,1.0000000000000007,19,single resilient depot,2
+severe,nearest_first_post,waste_share,0.0,0.0,0.0,20,single resilient depot,2
+severe,nearest_first_post,unmet_gini,0.8029604944418184,0.7963435354777472,0.8102326757830371,20,single resilient depot,2
+severe,access_opt,unmet_units,6565.8292,6081.796564999999,7029.253265,20,single resilient depot,2
+severe,access_opt,total_unmet_units,27370.896000000008,26362.223920000004,28585.892460000003,20,single resilient depot,2
+severe,access_opt,capture_rate,1.0000000000000004,0.9999999999999998,1.0000000000000007,19,single resilient depot,2
+severe,access_opt,waste_share,0.0,0.0,0.0,20,single resilient depot,2
+severe,access_opt,unmet_gini,0.8029604944418184,0.7963435354777472,0.8102326757830371,20,single resilient depot,2
+mild,none,unmet_units,11799.016000000001,11437.378665000002,12130.492135000002,20,single resilient depot,4
+mild,none,total_unmet_units,13264.298,12621.012140000003,13861.554095000001,20,single resilient depot,4
+mild,none,capture_rate,-3.009425402454435e-17,-7.523563506136088e-17,0.0,20,single resilient depot,4
+mild,none,waste_share,0.0,0.0,0.0,20,single resilient depot,4
+mild,none,unmet_gini,0.6911175547579208,0.6877254471832763,0.6946053556783649,20,single resilient depot,4
+mild,proportional,unmet_units,3295.039517424876,3133.4308055172405,3451.2099556785606,20,single resilient depot,4
+mild,proportional,total_unmet_units,4760.321517424876,4300.9212408817,5199.046909333901,20,single resilient depot,4
+mild,proportional,capture_rate,0.728489696048069,0.7238790004836219,0.733342476452896,20,single resilient depot,4
+mild,proportional,waste_share,0.6815556167795909,0.6729894990282254,0.690388378548474,20,single resilient depot,4
+mild,proportional,unmet_gini,0.8650122435491303,0.8600523264747483,0.870385093792603,20,single resilient depot,4
+mild,nearest_first,unmet_units,2957.7954,2406.6503249999996,3470.1363949999995,20,single resilient depot,4
+mild,nearest_first,total_unmet_units,4423.0774,3575.9570750000003,5238.313095,20,single resilient depot,4
+mild,nearest_first,capture_rate,0.7614917069131553,0.7276966297410984,0.7987261765349206,20,single resilient depot,4
+mild,nearest_first,waste_share,0.14235919668620822,0.12634730122737936,0.15888779341475145,20,single resilient depot,4
+mild,nearest_first,unmet_gini,0.9074615990286319,0.8939502722203981,0.9216245887974258,20,single resilient depot,4
+mild,nearest_first_post,unmet_units,122.601,24.5202,220.6818,20,single resilient depot,4
+mild,nearest_first_post,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,single resilient depot,4
+mild,nearest_first_post,capture_rate,1.0,1.0,1.0,20,single resilient depot,4
+mild,nearest_first_post,waste_share,0.0,0.0,0.0,20,single resilient depot,4
+mild,nearest_first_post,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,single resilient depot,4
+mild,access_opt,unmet_units,122.601,24.5202,220.6818,20,single resilient depot,4
+mild,access_opt,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,single resilient depot,4
+mild,access_opt,capture_rate,1.0,1.0,1.0,20,single resilient depot,4
+mild,access_opt,waste_share,0.0,0.0,0.0,20,single resilient depot,4
+mild,access_opt,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,single resilient depot,4
+moderate,none,unmet_units,11901.213800000001,11396.391850000004,12374.847670000001,20,single resilient depot,4
+moderate,none,total_unmet_units,22083.562200000008,21184.548185000003,22942.69188,20,single resilient depot,4
+moderate,none,capture_rate,1.6993274831042845e-17,-2.315148566826387e-16,2.6045714385631534e-16,20,single resilient depot,4
+moderate,none,waste_share,0.0,0.0,0.0,20,single resilient depot,4
+moderate,none,unmet_gini,0.6891665485915153,0.6817340944773004,0.6964034227246525,20,single resilient depot,4
+moderate,proportional,unmet_units,8479.245170576049,7702.446313528804,9156.334045000001,20,single resilient depot,4
+moderate,proportional,total_unmet_units,18661.59357057605,17180.81013910485,19983.27503762329,20,single resilient depot,4
+moderate,proportional,capture_rate,0.9647527393047148,0.922782029398596,0.9904630133475555,20,single resilient depot,4
+moderate,proportional,waste_share,0.8712376392497481,0.8468639689165917,0.8902014888086961,20,single resilient depot,4
+moderate,proportional,unmet_gini,0.7874024432987244,0.7786154041172638,0.7970738121301882,20,single resilient depot,4
+moderate,nearest_first,unmet_units,9253.078800000001,8602.733495,9839.019645,20,single resilient depot,4
+moderate,nearest_first,total_unmet_units,19435.427200000002,18097.41686,20642.787544999992,20,single resilient depot,4
+moderate,nearest_first,capture_rate,0.7496409415935849,0.7199195190515156,0.7774354212095577,20,single resilient depot,4
+moderate,nearest_first,waste_share,0.2134008358952831,0.1821168442132038,0.24319978122670607,20,single resilient depot,4
+moderate,nearest_first,unmet_gini,0.7541782726617319,0.7450817393497103,0.7638455769102304,20,single resilient depot,4
+moderate,nearest_first_post,unmet_units,8210.675600000002,7165.060085000002,9099.699320000002,20,single resilient depot,4
+moderate,nearest_first_post,total_unmet_units,18393.023999999998,16603.732775,19893.88487,20,single resilient depot,4
+moderate,nearest_first_post,capture_rate,0.9997447199649748,0.9992341598949241,1.0000000000000004,20,single resilient depot,4
+moderate,nearest_first_post,waste_share,0.0,0.0,0.0,20,single resilient depot,4
+moderate,nearest_first_post,unmet_gini,0.797504704389406,0.7834259321943666,0.817264416380586,20,single resilient depot,4
+moderate,access_opt,unmet_units,8210.675600000002,7165.060085000002,9099.699320000002,20,single resilient depot,4
+moderate,access_opt,total_unmet_units,18393.023999999998,16603.732775,19893.88487,20,single resilient depot,4
+moderate,access_opt,capture_rate,0.9997447199649748,0.9992341598949241,1.0000000000000004,20,single resilient depot,4
+moderate,access_opt,waste_share,0.0,0.0,0.0,20,single resilient depot,4
+moderate,access_opt,unmet_gini,0.797504704389406,0.7834259321943666,0.817264416380586,20,single resilient depot,4
+severe,none,unmet_units,7819.7357999999995,7235.11524,8367.375789999998,20,single resilient depot,4
+severe,none,total_unmet_units,28624.802600000003,27710.02864,29709.970315,20,single resilient depot,4
+severe,none,capture_rate,-9.815548131512742e-17,-4.587987819464555e-16,2.7066210599959377e-16,19,single resilient depot,4
+severe,none,waste_share,0.0,0.0,0.0,20,single resilient depot,4
+severe,none,unmet_gini,0.7296651549478408,0.7198525358262373,0.7405206065674534,20,single resilient depot,4
+severe,proportional,unmet_units,6630.390399999999,6153.158855,7078.168845,20,single resilient depot,4
+severe,proportional,total_unmet_units,27435.457200000004,26411.42785,28660.122999999992,20,single resilient depot,4
+severe,proportional,capture_rate,0.9500011962223528,0.9233745190277787,0.9754633031123213,19,single resilient depot,4
+severe,proportional,waste_share,0.942856529712159,0.9361116143046233,0.9506635847896627,20,single resilient depot,4
+severe,proportional,unmet_gini,0.79645119343299,0.7887475068983268,0.8049015684897177,20,single resilient depot,4
+severe,nearest_first,unmet_units,6929.328000000001,6469.576485,7342.847885000001,20,single resilient depot,4
+severe,nearest_first,total_unmet_units,27734.394800000002,26696.712679999997,28950.778965,20,single resilient depot,4
+severe,nearest_first,capture_rate,0.7038958597928139,0.6334767632915433,0.7673036112560944,19,single resilient depot,4
+severe,nearest_first,waste_share,0.49665643461262887,0.43490156301002697,0.565986796138708,20,single resilient depot,4
+severe,nearest_first,unmet_gini,0.7706522063737441,0.7613391155801588,0.7795667270657547,20,single resilient depot,4
+severe,nearest_first_post,unmet_units,6565.8292,6081.796564999999,7029.253265,20,single resilient depot,4
+severe,nearest_first_post,total_unmet_units,27370.896000000008,26362.223920000004,28585.892460000003,20,single resilient depot,4
+severe,nearest_first_post,capture_rate,1.0000000000000004,0.9999999999999998,1.0000000000000007,19,single resilient depot,4
+severe,nearest_first_post,waste_share,0.0,0.0,0.0,20,single resilient depot,4
+severe,nearest_first_post,unmet_gini,0.8029604944418184,0.7963435354777472,0.8102326757830371,20,single resilient depot,4
+severe,access_opt,unmet_units,6565.8292,6081.796564999999,7029.253265,20,single resilient depot,4
+severe,access_opt,total_unmet_units,27370.896000000008,26362.223920000004,28585.892460000003,20,single resilient depot,4
+severe,access_opt,capture_rate,1.0000000000000004,0.9999999999999998,1.0000000000000007,19,single resilient depot,4
+severe,access_opt,waste_share,0.0,0.0,0.0,20,single resilient depot,4
+severe,access_opt,unmet_gini,0.8029604944418184,0.7963435354777472,0.8102326757830371,20,single resilient depot,4
+mild,none,unmet_units,11799.016000000001,11437.378665000002,12130.492135000002,20,single resilient depot,8
+mild,none,total_unmet_units,13264.298,12621.012140000003,13861.554095000001,20,single resilient depot,8
+mild,none,capture_rate,-3.009425402454435e-17,-7.523563506136088e-17,0.0,20,single resilient depot,8
+mild,none,waste_share,0.0,0.0,0.0,20,single resilient depot,8
+mild,none,unmet_gini,0.6911175547579208,0.6877254471832763,0.6946053556783649,20,single resilient depot,8
+mild,proportional,unmet_units,1933.2154771624178,1709.7029715199612,2146.248663746878,20,single resilient depot,8
+mild,proportional,total_unmet_units,3398.4974771624175,2875.4555054877583,3904.2497332541675,20,single resilient depot,8
+mild,proportional,capture_rate,0.8463125834979358,0.83588062965761,0.8576492270050483,20,single resilient depot,8
+mild,proportional,waste_share,0.6959322480807351,0.6908623369834624,0.7009500674507066,20,single resilient depot,8
+mild,proportional,unmet_gini,0.9176657757001182,0.9141203948435868,0.9213713277357016,20,single resilient depot,8
+mild,nearest_first,unmet_units,2957.7954,2406.6503249999996,3470.1363949999995,20,single resilient depot,8
+mild,nearest_first,total_unmet_units,4423.0774,3575.9570750000003,5238.313095,20,single resilient depot,8
+mild,nearest_first,capture_rate,0.7614917069131553,0.7276966297410984,0.7987261765349206,20,single resilient depot,8
+mild,nearest_first,waste_share,0.14235919668620822,0.12634730122737936,0.15888779341475145,20,single resilient depot,8
+mild,nearest_first,unmet_gini,0.9074615990286319,0.8939502722203981,0.9216245887974258,20,single resilient depot,8
+mild,nearest_first_post,unmet_units,122.601,24.5202,220.6818,20,single resilient depot,8
+mild,nearest_first_post,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,single resilient depot,8
+mild,nearest_first_post,capture_rate,1.0,1.0,1.0,20,single resilient depot,8
+mild,nearest_first_post,waste_share,0.0,0.0,0.0,20,single resilient depot,8
+mild,nearest_first_post,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,single resilient depot,8
+mild,access_opt,unmet_units,122.601,24.5202,220.6818,20,single resilient depot,8
+mild,access_opt,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,single resilient depot,8
+mild,access_opt,capture_rate,1.0,1.0,1.0,20,single resilient depot,8
+mild,access_opt,waste_share,0.0,0.0,0.0,20,single resilient depot,8
+mild,access_opt,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,single resilient depot,8
+moderate,none,unmet_units,11901.213800000001,11396.391850000004,12374.847670000001,20,single resilient depot,8
+moderate,none,total_unmet_units,22083.562200000008,21184.548185000003,22942.69188,20,single resilient depot,8
+moderate,none,capture_rate,1.6993274831042845e-17,-2.315148566826387e-16,2.6045714385631534e-16,20,single resilient depot,8
+moderate,none,waste_share,0.0,0.0,0.0,20,single resilient depot,8
+moderate,none,unmet_gini,0.6891665485915153,0.6817340944773004,0.6964034227246525,20,single resilient depot,8
+moderate,proportional,unmet_units,8375.168843350122,7480.6490239666155,9155.445665000003,20,single resilient depot,8
+moderate,proportional,total_unmet_units,18557.51724335012,16910.35693288286,19960.2008,20,single resilient depot,8
+moderate,proportional,capture_rate,0.9735357503657184,0.9501320199651427,0.9904630133475555,20,single resilient depot,8
+moderate,proportional,waste_share,0.8709920198748733,0.846133251276339,0.8902014888086961,20,single resilient depot,8
+moderate,proportional,unmet_gini,0.7895921832024373,0.7786450938852287,0.8029110123498578,20,single resilient depot,8
+moderate,nearest_first,unmet_units,9242.615600000001,8581.808849999998,9838.758065000002,20,single resilient depot,8
+moderate,nearest_first,total_unmet_units,19424.964,18085.807975,20642.787544999992,20,single resilient depot,8
+moderate,nearest_first,capture_rate,0.7505239320274613,0.7218168868764999,0.7774354212095577,20,single resilient depot,8
+moderate,nearest_first,waste_share,0.21545060543151312,0.18378717407874878,0.24656607114009316,20,single resilient depot,8
+moderate,nearest_first,unmet_gini,0.755309075907632,0.7453203634393084,0.7669428230754206,20,single resilient depot,8
+moderate,nearest_first_post,unmet_units,8207.650600000003,7156.18434,9099.699320000002,20,single resilient depot,8
+moderate,nearest_first_post,total_unmet_units,18389.998999999996,16597.758400000002,19893.88487,20,single resilient depot,8
+moderate,nearest_first_post,capture_rate,1.0000000000000002,1.0,1.0000000000000004,20,single resilient depot,8
+moderate,nearest_first_post,waste_share,0.0,0.0,0.0,20,single resilient depot,8
+moderate,nearest_first_post,unmet_gini,0.7981340926007799,0.7834259321943666,0.819640432151234,20,single resilient depot,8
+moderate,access_opt,unmet_units,8207.650600000003,7156.18434,9099.699320000002,20,single resilient depot,8
+moderate,access_opt,total_unmet_units,18389.998999999996,16597.758400000002,19893.88487,20,single resilient depot,8
+moderate,access_opt,capture_rate,1.0000000000000002,1.0,1.0000000000000004,20,single resilient depot,8
+moderate,access_opt,waste_share,0.0,0.0,0.0,20,single resilient depot,8
+moderate,access_opt,unmet_gini,0.7981340926007799,0.7834259321943666,0.819640432151234,20,single resilient depot,8
+severe,none,unmet_units,7819.7357999999995,7235.11524,8367.375789999998,20,single resilient depot,8
+severe,none,total_unmet_units,28624.802600000003,27710.02864,29709.970315,20,single resilient depot,8
+severe,none,capture_rate,-9.815548131512742e-17,-4.587987819464555e-16,2.7066210599959377e-16,19,single resilient depot,8
+severe,none,waste_share,0.0,0.0,0.0,20,single resilient depot,8
+severe,none,unmet_gini,0.7296651549478408,0.7198525358262373,0.7405206065674534,20,single resilient depot,8
+severe,proportional,unmet_units,6630.390399999999,6153.158855,7078.168845,20,single resilient depot,8
+severe,proportional,total_unmet_units,27435.457200000004,26411.42785,28660.122999999992,20,single resilient depot,8
+severe,proportional,capture_rate,0.9500011962223528,0.9233745190277787,0.9754633031123213,19,single resilient depot,8
+severe,proportional,waste_share,0.942856529712159,0.9361116143046233,0.9506635847896627,20,single resilient depot,8
+severe,proportional,unmet_gini,0.79645119343299,0.7887475068983268,0.8049015684897177,20,single resilient depot,8
+severe,nearest_first,unmet_units,6929.328000000001,6469.576485,7342.847885000001,20,single resilient depot,8
+severe,nearest_first,total_unmet_units,27734.394800000002,26696.712679999997,28950.778965,20,single resilient depot,8
+severe,nearest_first,capture_rate,0.7038958597928139,0.6334767632915433,0.7673036112560944,19,single resilient depot,8
+severe,nearest_first,waste_share,0.49665643461262887,0.43490156301002697,0.565986796138708,20,single resilient depot,8
+severe,nearest_first,unmet_gini,0.7706522063737441,0.7613391155801588,0.7795667270657547,20,single resilient depot,8
+severe,nearest_first_post,unmet_units,6565.8292,6081.796564999999,7029.253265,20,single resilient depot,8
+severe,nearest_first_post,total_unmet_units,27370.896000000008,26362.223920000004,28585.892460000003,20,single resilient depot,8
+severe,nearest_first_post,capture_rate,1.0000000000000004,0.9999999999999998,1.0000000000000007,19,single resilient depot,8
+severe,nearest_first_post,waste_share,0.0,0.0,0.0,20,single resilient depot,8
+severe,nearest_first_post,unmet_gini,0.8029604944418184,0.7963435354777472,0.8102326757830371,20,single resilient depot,8
+severe,access_opt,unmet_units,6565.8292,6081.796564999999,7029.253265,20,single resilient depot,8
+severe,access_opt,total_unmet_units,27370.896000000008,26362.223920000004,28585.892460000003,20,single resilient depot,8
+severe,access_opt,capture_rate,1.0000000000000004,0.9999999999999998,1.0000000000000007,19,single resilient depot,8
+severe,access_opt,waste_share,0.0,0.0,0.0,20,single resilient depot,8
+severe,access_opt,unmet_gini,0.8029604944418184,0.7963435354777472,0.8102326757830371,20,single resilient depot,8
+mild,none,unmet_units,11799.016000000001,11437.378665000002,12130.492135000002,20,three hubs,2
+mild,none,total_unmet_units,13264.298,12621.012140000003,13861.554095000001,20,three hubs,2
+mild,none,capture_rate,-3.009425402454435e-17,-7.523563506136088e-17,0.0,20,three hubs,2
+mild,none,waste_share,0.0,0.0,0.0,20,three hubs,2
+mild,none,unmet_gini,0.6911175547579208,0.6877254471832763,0.6946053556783649,20,three hubs,2
+mild,proportional,unmet_units,7214.170350417054,6877.784387181656,7516.178228736599,20,three hubs,2
+mild,proportional,total_unmet_units,8679.452350417054,8061.940029134927,9234.378142034368,20,three hubs,2
+mild,proportional,capture_rate,0.3937731240245221,0.3832957298803862,0.4036492640880564,20,three hubs,2
+mild,proportional,waste_share,0.7469716985616162,0.7425124502706101,0.7517029296412405,20,three hubs,2
+mild,proportional,unmet_gini,0.8092754117420349,0.8054983424564893,0.813142000533836,20,three hubs,2
+mild,nearest_first,unmet_units,3074.7189999999996,2505.46982,3594.765295,20,three hubs,2
+mild,nearest_first,total_unmet_units,4540.000999999999,3676.758595,5363.756415,20,three hubs,2
+mild,nearest_first,capture_rate,0.7515888343821265,0.7175065666271928,0.7903453701102693,20,three hubs,2
+mild,nearest_first,waste_share,0.11786972910919076,0.09497773946695863,0.1402829969353273,20,three hubs,2
+mild,nearest_first,unmet_gini,0.9026831529574741,0.8888555272520833,0.9173319062360484,20,three hubs,2
+mild,nearest_first_post,unmet_units,222.97840000000002,102.6694,354.80117499999994,20,three hubs,2
+mild,nearest_first_post,total_unmet_units,1688.2604,1277.54646,2096.2633999999994,20,three hubs,2
+mild,nearest_first_post,capture_rate,0.9913600809816921,0.9846646959297123,0.9965977845782045,20,three hubs,2
+mild,nearest_first_post,waste_share,0.0,0.0,0.0,20,three hubs,2
+mild,nearest_first_post,unmet_gini,0.6885232590722612,0.49125636947197,0.8852813471430253,20,three hubs,2
+mild,access_opt,unmet_units,127.71679999999999,30.86900500000001,225.35080499999998,20,three hubs,2
+mild,access_opt,total_unmet_units,1592.9988,1207.32707,1984.7725249999999,20,three hubs,2
+mild,access_opt,capture_rate,0.9995690909801548,0.999336584767636,0.9997865227551914,20,three hubs,2
+mild,access_opt,waste_share,0.0,0.0,0.0,20,three hubs,2
+mild,access_opt,unmet_gini,0.6886876595908327,0.4916531472555639,0.8854577123420108,20,three hubs,2
+moderate,none,unmet_units,11901.213800000001,11396.391850000004,12374.847670000001,20,three hubs,2
+moderate,none,total_unmet_units,22083.562200000008,21184.548185000003,22942.69188,20,three hubs,2
+moderate,none,capture_rate,4.700311965231252e-18,-1.1482616405418628e-16,1.209440929148855e-16,20,three hubs,2
+moderate,none,waste_share,0.0,0.0,0.0,20,three hubs,2
+moderate,none,unmet_gini,0.6891665485915153,0.6817340944773004,0.6964034227246525,20,three hubs,2
+moderate,proportional,unmet_units,6409.677769404944,6089.352820319485,6717.9956663203175,20,three hubs,2
+moderate,proportional,total_unmet_units,16592.026169404944,15609.17249494875,17633.15396587535,20,three hubs,2
+moderate,proportional,capture_rate,0.8332080627989459,0.750705073291697,0.9054105049896566,20,three hubs,2
+moderate,proportional,waste_share,0.7800317700563386,0.7648402063000356,0.7976677209929968,20,three hubs,2
+moderate,proportional,unmet_gini,0.8720805097692261,0.8577733721607699,0.8842681658124191,20,three hubs,2
+moderate,nearest_first,unmet_units,7692.093800000001,7009.090985000002,8319.692140000001,20,three hubs,2
+moderate,nearest_first,total_unmet_units,17874.442199999998,16472.830315,19150.703644999998,20,three hubs,2
+moderate,nearest_first,capture_rate,0.6052612173925533,0.5913168227816549,0.6190680272647522,20,three hubs,2
+moderate,nearest_first,waste_share,0.24779060528972838,0.22457670349128414,0.2704945767007572,20,three hubs,2
+moderate,nearest_first,unmet_gini,0.8096312022611072,0.8012528263160305,0.8174364375807663,20,three hubs,2
+moderate,nearest_first_post,unmet_units,4930.584799999999,3957.6474849999995,5789.45858,20,three hubs,2
+moderate,nearest_first_post,total_unmet_units,15112.9332,13325.64526,16714.780369999997,20,three hubs,2
+moderate,nearest_first_post,capture_rate,1.0,1.0,1.0000000000000002,20,three hubs,2
+moderate,nearest_first_post,waste_share,0.0,0.0,0.0,20,three hubs,2
+moderate,nearest_first_post,unmet_gini,0.9247973727734541,0.9148433767661793,0.9366196633920258,20,three hubs,2
+moderate,access_opt,unmet_units,4930.584799999999,3957.6474849999995,5789.45858,20,three hubs,2
+moderate,access_opt,total_unmet_units,15112.9332,13325.64526,16714.780369999997,20,three hubs,2
+moderate,access_opt,capture_rate,1.0,1.0,1.0000000000000002,20,three hubs,2
+moderate,access_opt,waste_share,0.0,0.0,0.0,20,three hubs,2
+moderate,access_opt,unmet_gini,0.9247973727734541,0.9148433767661793,0.9366196633920258,20,three hubs,2
+severe,none,unmet_units,7819.7357999999995,7235.11524,8367.375789999998,20,three hubs,2
+severe,none,total_unmet_units,28624.802600000003,27710.02864,29709.970315,20,three hubs,2
+severe,none,capture_rate,-2.935791911385492e-16,-8.622183225968523e-16,8.873603389088587e-17,20,three hubs,2
+severe,none,waste_share,0.0,0.0,0.0,20,three hubs,2
+severe,none,unmet_gini,0.7296651549478408,0.7198525358262373,0.7405206065674534,20,three hubs,2
+severe,proportional,unmet_units,5298.947433704828,4974.384372932252,5596.111328012686,20,three hubs,2
+severe,proportional,total_unmet_units,26104.01423370483,24882.890358523353,27508.317941174148,20,three hubs,2
+severe,proportional,capture_rate,0.9413335263007532,0.9163864400494506,0.9623835032353958,20,three hubs,2
+severe,proportional,waste_share,0.9153387217464235,0.9050456411860738,0.9266373650723874,20,three hubs,2
+severe,proportional,unmet_gini,0.8761650249960086,0.8654383006114258,0.8864994255854638,20,three hubs,2
+severe,nearest_first,unmet_units,6465.5908,6067.404125000001,6811.375795000001,20,three hubs,2
+severe,nearest_first,total_unmet_units,27270.657600000006,26154.127185,28565.26316,20,three hubs,2
+severe,nearest_first,capture_rate,0.47398855312358307,0.40697636624927946,0.5317595265728743,20,three hubs,2
+severe,nearest_first,waste_share,0.5052062192443186,0.4542031823102946,0.5652526970230694,20,three hubs,2
+severe,nearest_first,unmet_gini,0.7979914878471901,0.7897424512814578,0.8065365158744342,20,three hubs,2
+severe,nearest_first_post,unmet_units,5136.444399999999,4798.484065000001,5447.707745000001,20,three hubs,2
+severe,nearest_first_post,total_unmet_units,25941.5112,24734.93833,27368.253429999997,20,three hubs,2
+severe,nearest_first_post,capture_rate,0.9999999999999998,0.9999999999999991,1.0000000000000002,20,three hubs,2
+severe,nearest_first_post,waste_share,0.0,0.0,0.0,20,three hubs,2
+severe,nearest_first_post,unmet_gini,0.89096331658191,0.8799775849975953,0.8998441080284177,20,three hubs,2
+severe,access_opt,unmet_units,5136.444399999999,4798.484065000001,5447.707745000001,20,three hubs,2
+severe,access_opt,total_unmet_units,25941.5112,24734.93833,27368.253429999997,20,three hubs,2
+severe,access_opt,capture_rate,0.9999999999999998,0.9999999999999991,1.0000000000000002,20,three hubs,2
+severe,access_opt,waste_share,0.0,0.0,0.0,20,three hubs,2
+severe,access_opt,unmet_gini,0.89096331658191,0.8799775849975953,0.8998441080284177,20,three hubs,2
+mild,none,unmet_units,11799.016000000001,11437.378665000002,12130.492135000002,20,three hubs,4
+mild,none,total_unmet_units,13264.298,12621.012140000003,13861.554095000001,20,three hubs,4
+mild,none,capture_rate,-3.009425402454435e-17,-7.523563506136088e-17,0.0,20,three hubs,4
+mild,none,waste_share,0.0,0.0,0.0,20,three hubs,4
+mild,none,unmet_gini,0.6911175547579208,0.6877254471832763,0.6946053556783649,20,three hubs,4
+mild,proportional,unmet_units,3725.2551454527174,3407.7008401342064,4023.095491837783,20,three hubs,4
+mild,proportional,total_unmet_units,5190.537145452718,4608.6519123446315,5726.886454082203,20,three hubs,4
+mild,proportional,capture_rate,0.6936421872633115,0.6747577129985046,0.7126330169238497,20,three hubs,4
+mild,proportional,waste_share,0.7405351992638878,0.7357687466280715,0.7455432965254034,20,three hubs,4
+mild,proportional,unmet_gini,0.8741784356765505,0.8683128411730615,0.8796229241992982,20,three hubs,4
+mild,nearest_first,unmet_units,2957.7954,2406.6503249999996,3470.1363949999995,20,three hubs,4
+mild,nearest_first,total_unmet_units,4423.0774,3575.9570750000003,5238.313095,20,three hubs,4
+mild,nearest_first,capture_rate,0.7614917069131553,0.7276966297410984,0.7987261765349206,20,three hubs,4
+mild,nearest_first,waste_share,0.14235919668620822,0.12634730122737936,0.15888779341475145,20,three hubs,4
+mild,nearest_first,unmet_gini,0.9074615990286319,0.8939502722203981,0.9216245887974258,20,three hubs,4
+mild,nearest_first_post,unmet_units,122.601,24.5202,220.6818,20,three hubs,4
+mild,nearest_first_post,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,three hubs,4
+mild,nearest_first_post,capture_rate,1.0,1.0,1.0,20,three hubs,4
+mild,nearest_first_post,waste_share,0.0,0.0,0.0,20,three hubs,4
+mild,nearest_first_post,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,three hubs,4
+mild,access_opt,unmet_units,122.601,24.5202,220.6818,20,three hubs,4
+mild,access_opt,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,three hubs,4
+mild,access_opt,capture_rate,1.0,1.0,1.0,20,three hubs,4
+mild,access_opt,waste_share,0.0,0.0,0.0,20,three hubs,4
+mild,access_opt,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,three hubs,4
+moderate,none,unmet_units,11901.213800000001,11396.391850000004,12374.847670000001,20,three hubs,4
+moderate,none,total_unmet_units,22083.562200000008,21184.548185000003,22942.69188,20,three hubs,4
+moderate,none,capture_rate,4.700311965231252e-18,-1.1482616405418628e-16,1.209440929148855e-16,20,three hubs,4
+moderate,none,waste_share,0.0,0.0,0.0,20,three hubs,4
+moderate,none,unmet_gini,0.6891665485915153,0.6817340944773004,0.6964034227246525,20,three hubs,4
+moderate,proportional,unmet_units,5742.511874267433,5212.897053505759,6257.22613899506,20,three hubs,4
+moderate,proportional,total_unmet_units,15924.860274267436,14610.319206552285,17206.50144855462,20,three hubs,4
+moderate,proportional,capture_rate,0.9048617861537881,0.8569001527934454,0.9438068486031943,20,three hubs,4
+moderate,proportional,waste_share,0.8073853282726446,0.7894111192957937,0.8242571300027464,20,three hubs,4
+moderate,proportional,unmet_gini,0.8929025027390077,0.8820162764829125,0.9020766808796151,20,three hubs,4
+moderate,nearest_first,unmet_units,7654.193000000001,6953.796675,8299.155139999999,20,three hubs,4
+moderate,nearest_first,total_unmet_units,17836.5414,16402.207185000003,19128.675414999998,20,three hubs,4
+moderate,nearest_first,capture_rate,0.609148090068882,0.5948896669902921,0.6233944592813264,20,three hubs,4
+moderate,nearest_first,waste_share,0.2549681653689682,0.23126173715772255,0.2773129035755307,20,three hubs,4
+moderate,nearest_first,unmet_gini,0.8132532975546105,0.8035633038642807,0.8224235906646098,20,three hubs,4
+moderate,nearest_first_post,unmet_units,4930.584799999999,3957.6474849999995,5789.45858,20,three hubs,4
+moderate,nearest_first_post,total_unmet_units,15112.9332,13325.64526,16714.780369999997,20,three hubs,4
+moderate,nearest_first_post,capture_rate,1.0,1.0,1.0000000000000002,20,three hubs,4
+moderate,nearest_first_post,waste_share,0.0,0.0,0.0,20,three hubs,4
+moderate,nearest_first_post,unmet_gini,0.9247973727734541,0.9148433767661793,0.9366196633920258,20,three hubs,4
+moderate,access_opt,unmet_units,4930.584799999999,3957.6474849999995,5789.45858,20,three hubs,4
+moderate,access_opt,total_unmet_units,15112.9332,13325.64526,16714.780369999997,20,three hubs,4
+moderate,access_opt,capture_rate,1.0,1.0,1.0000000000000002,20,three hubs,4
+moderate,access_opt,waste_share,0.0,0.0,0.0,20,three hubs,4
+moderate,access_opt,unmet_gini,0.9247973727734541,0.9148433767661793,0.9366196633920258,20,three hubs,4
+severe,none,unmet_units,7819.7357999999995,7235.11524,8367.375789999998,20,three hubs,4
+severe,none,total_unmet_units,28624.802600000003,27710.02864,29709.970315,20,three hubs,4
+severe,none,capture_rate,-2.935791911385492e-16,-8.622183225968523e-16,8.873603389088587e-17,20,three hubs,4
+severe,none,waste_share,0.0,0.0,0.0,20,three hubs,4
+severe,none,unmet_gini,0.7296651549478408,0.7198525358262373,0.7405206065674534,20,three hubs,4
+severe,proportional,unmet_units,5298.947433704828,4974.384372932252,5596.111328012686,20,three hubs,4
+severe,proportional,total_unmet_units,26104.01423370483,24882.890358523353,27508.317941174148,20,three hubs,4
+severe,proportional,capture_rate,0.9413335263007532,0.9163864400494506,0.9623835032353958,20,three hubs,4
+severe,proportional,waste_share,0.9155965494803064,0.905369947260206,0.9268123146644923,20,three hubs,4
+severe,proportional,unmet_gini,0.8761650249960086,0.8654383006114258,0.8864994255854638,20,three hubs,4
+severe,nearest_first,unmet_units,6465.5908,6067.404125000001,6811.375795000001,20,three hubs,4
+severe,nearest_first,total_unmet_units,27270.657600000006,26154.127185,28565.26316,20,three hubs,4
+severe,nearest_first,capture_rate,0.47398855312358307,0.40697636624927946,0.5317595265728743,20,three hubs,4
+severe,nearest_first,waste_share,0.5052062192443186,0.4542031823102946,0.5652526970230694,20,three hubs,4
+severe,nearest_first,unmet_gini,0.7979914878471901,0.7897424512814578,0.8065365158744342,20,three hubs,4
+severe,nearest_first_post,unmet_units,5136.444399999999,4798.484065000001,5447.707745000001,20,three hubs,4
+severe,nearest_first_post,total_unmet_units,25941.5112,24734.93833,27368.253429999997,20,three hubs,4
+severe,nearest_first_post,capture_rate,0.9999999999999998,0.9999999999999991,1.0000000000000002,20,three hubs,4
+severe,nearest_first_post,waste_share,0.0,0.0,0.0,20,three hubs,4
+severe,nearest_first_post,unmet_gini,0.89096331658191,0.8799775849975953,0.8998441080284177,20,three hubs,4
+severe,access_opt,unmet_units,5136.444399999999,4798.484065000001,5447.707745000001,20,three hubs,4
+severe,access_opt,total_unmet_units,25941.5112,24734.93833,27368.253429999997,20,three hubs,4
+severe,access_opt,capture_rate,0.9999999999999998,0.9999999999999991,1.0000000000000002,20,three hubs,4
+severe,access_opt,waste_share,0.0,0.0,0.0,20,three hubs,4
+severe,access_opt,unmet_gini,0.89096331658191,0.8799775849975953,0.8998441080284177,20,three hubs,4
+mild,none,unmet_units,11799.016000000001,11437.378665000002,12130.492135000002,20,three hubs,8
+mild,none,total_unmet_units,13264.298,12621.012140000003,13861.554095000001,20,three hubs,8
+mild,none,capture_rate,-3.009425402454435e-17,-7.523563506136088e-17,0.0,20,three hubs,8
+mild,none,waste_share,0.0,0.0,0.0,20,three hubs,8
+mild,none,unmet_gini,0.6911175547579208,0.6877254471832763,0.6946053556783649,20,three hubs,8
+mild,proportional,unmet_units,3672.9851090229845,3359.8163413537163,3959.7446414161427,20,three hubs,8
+mild,proportional,total_unmet_units,5138.267109022985,4556.144113606168,5682.220309260386,20,three hubs,8
+mild,proportional,capture_rate,0.6980875313928058,0.6806559463674273,0.7160110820453404,20,three hubs,8
+mild,proportional,waste_share,0.7495526146787309,0.7461617326729939,0.7527502692214639,20,three hubs,8
+mild,proportional,unmet_gini,0.8779972375647764,0.8736114345080188,0.8820998635213066,20,three hubs,8
+mild,nearest_first,unmet_units,2957.7954,2406.6503249999996,3470.1363949999995,20,three hubs,8
+mild,nearest_first,total_unmet_units,4423.0774,3575.9570750000003,5238.313095,20,three hubs,8
+mild,nearest_first,capture_rate,0.7614917069131553,0.7276966297410984,0.7987261765349206,20,three hubs,8
+mild,nearest_first,waste_share,0.14235919668620822,0.12634730122737936,0.15888779341475145,20,three hubs,8
+mild,nearest_first,unmet_gini,0.9074615990286319,0.8939502722203981,0.9216245887974258,20,three hubs,8
+mild,nearest_first_post,unmet_units,122.601,24.5202,220.6818,20,three hubs,8
+mild,nearest_first_post,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,three hubs,8
+mild,nearest_first_post,capture_rate,1.0,1.0,1.0,20,three hubs,8
+mild,nearest_first_post,waste_share,0.0,0.0,0.0,20,three hubs,8
+mild,nearest_first_post,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,three hubs,8
+mild,access_opt,unmet_units,122.601,24.5202,220.6818,20,three hubs,8
+mild,access_opt,total_unmet_units,1587.883,1203.30275,1979.5620099999996,20,three hubs,8
+mild,access_opt,capture_rate,1.0,1.0,1.0,20,three hubs,8
+mild,access_opt,waste_share,0.0,0.0,0.0,20,three hubs,8
+mild,access_opt,unmet_gini,0.24646712333427473,0.04931506849315069,0.44363875455432616,20,three hubs,8
+moderate,none,unmet_units,11901.213800000001,11396.391850000004,12374.847670000001,20,three hubs,8
+moderate,none,total_unmet_units,22083.562200000008,21184.548185000003,22942.69188,20,three hubs,8
+moderate,none,capture_rate,4.700311965231252e-18,-1.1482616405418628e-16,1.209440929148855e-16,20,three hubs,8
+moderate,none,waste_share,0.0,0.0,0.0,20,three hubs,8
+moderate,none,unmet_gini,0.6891665485915153,0.6817340944773004,0.6964034227246525,20,three hubs,8
+moderate,proportional,unmet_units,5710.292674267435,5162.109247715372,6245.4104632618255,20,three hubs,8
+moderate,proportional,total_unmet_units,15892.641074267438,14544.51756701471,17185.15354513223,20,three hubs,8
+moderate,proportional,capture_rate,0.9081142630938424,0.8617228834240553,0.9457324857435917,20,three hubs,8
+moderate,proportional,waste_share,0.808731076739968,0.7916517458059346,0.824875454720738,20,three hubs,8
+moderate,proportional,unmet_gini,0.8957582776627018,0.8872206102042878,0.9036470477074439,20,three hubs,8
+moderate,nearest_first,unmet_units,7654.193000000001,6953.796675,8299.155139999999,20,three hubs,8
+moderate,nearest_first,total_unmet_units,17836.5414,16402.207185000003,19128.675414999998,20,three hubs,8
+moderate,nearest_first,capture_rate,0.609148090068882,0.5948896669902921,0.6233944592813264,20,three hubs,8
+moderate,nearest_first,waste_share,0.2549681653689682,0.23126173715772255,0.2773129035755307,20,three hubs,8
+moderate,nearest_first,unmet_gini,0.8132532975546105,0.8035633038642807,0.8224235906646098,20,three hubs,8
+moderate,nearest_first_post,unmet_units,4930.584799999999,3957.6474849999995,5789.45858,20,three hubs,8
+moderate,nearest_first_post,total_unmet_units,15112.9332,13325.64526,16714.780369999997,20,three hubs,8
+moderate,nearest_first_post,capture_rate,1.0,1.0,1.0000000000000002,20,three hubs,8
+moderate,nearest_first_post,waste_share,0.0,0.0,0.0,20,three hubs,8
+moderate,nearest_first_post,unmet_gini,0.9247973727734541,0.9148433767661793,0.9366196633920258,20,three hubs,8
+moderate,access_opt,unmet_units,4930.584799999999,3957.6474849999995,5789.45858,20,three hubs,8
+moderate,access_opt,total_unmet_units,15112.9332,13325.64526,16714.780369999997,20,three hubs,8
+moderate,access_opt,capture_rate,1.0,1.0,1.0000000000000002,20,three hubs,8
+moderate,access_opt,waste_share,0.0,0.0,0.0,20,three hubs,8
+moderate,access_opt,unmet_gini,0.9247973727734541,0.9148433767661793,0.9366196633920258,20,three hubs,8
+severe,none,unmet_units,7819.7357999999995,7235.11524,8367.375789999998,20,three hubs,8
+severe,none,total_unmet_units,28624.802600000003,27710.02864,29709.970315,20,three hubs,8
+severe,none,capture_rate,-2.935791911385492e-16,-8.622183225968523e-16,8.873603389088587e-17,20,three hubs,8
+severe,none,waste_share,0.0,0.0,0.0,20,three hubs,8
+severe,none,unmet_gini,0.7296651549478408,0.7198525358262373,0.7405206065674534,20,three hubs,8
+severe,proportional,unmet_units,5298.947433704828,4974.384372932252,5596.111328012686,20,three hubs,8
+severe,proportional,total_unmet_units,26104.01423370483,24882.890358523353,27508.317941174148,20,three hubs,8
+severe,proportional,capture_rate,0.9413335263007532,0.9163864400494506,0.9623835032353958,20,three hubs,8
+severe,proportional,waste_share,0.9155965494803064,0.905369947260206,0.9268123146644923,20,three hubs,8
+severe,proportional,unmet_gini,0.8761650249960086,0.8654383006114258,0.8864994255854638,20,three hubs,8
+severe,nearest_first,unmet_units,6465.5908,6067.404125000001,6811.375795000001,20,three hubs,8
+severe,nearest_first,total_unmet_units,27270.657600000006,26154.127185,28565.26316,20,three hubs,8
+severe,nearest_first,capture_rate,0.47398855312358307,0.40697636624927946,0.5317595265728743,20,three hubs,8
+severe,nearest_first,waste_share,0.5052062192443186,0.4542031823102946,0.5652526970230694,20,three hubs,8
+severe,nearest_first,unmet_gini,0.7979914878471901,0.7897424512814578,0.8065365158744342,20,three hubs,8
+severe,nearest_first_post,unmet_units,5136.444399999999,4798.484065000001,5447.707745000001,20,three hubs,8
+severe,nearest_first_post,total_unmet_units,25941.5112,24734.93833,27368.253429999997,20,three hubs,8
+severe,nearest_first_post,capture_rate,0.9999999999999998,0.9999999999999991,1.0000000000000002,20,three hubs,8
+severe,nearest_first_post,waste_share,0.0,0.0,0.0,20,three hubs,8
+severe,nearest_first_post,unmet_gini,0.89096331658191,0.8799775849975953,0.8998441080284177,20,three hubs,8
+severe,access_opt,unmet_units,5136.444399999999,4798.484065000001,5447.707745000001,20,three hubs,8
+severe,access_opt,total_unmet_units,25941.5112,24734.93833,27368.253429999997,20,three hubs,8
+severe,access_opt,capture_rate,0.9999999999999998,0.9999999999999991,1.0000000000000002,20,three hubs,8
+severe,access_opt,waste_share,0.0,0.0,0.0,20,three hubs,8
+severe,access_opt,unmet_gini,0.89096331658191,0.8799775849975953,0.8998441080284177,20,three hubs,8

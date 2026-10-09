@@ -1,0 +1,7 @@
+config,hubs,split,mean_facilities_reachable_share,share_scenarios_isolated
+single depot (Silchar centre),1,train,0.4980283913689794,0.6333333333333333
+single depot (Silchar centre),1,test,0.45009472975976195,0.6666666666666666
+single resilient depot,1,train,0.532183963029014,0.6333333333333333
+single resilient depot,1,test,0.5256429289504504,0.6666666666666666
+three hubs,3,train,0.7100036220838153,0.2
+three hubs,3,test,0.7186363788035521,0.1
