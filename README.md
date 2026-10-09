@@ -44,23 +44,66 @@ method, not a measured real-world outcome.
 
 ## Installation
 
-TBD - exact steps. Will be verified from a fresh clone before each release.
+```bash
+git clone https://github.com/chiragshah2357/Commit-for-Good---Kernel-Panic.git
+cd Commit-for-Good---Kernel-Panic
+python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+The cleaned Cachar data (`datasets/processed/`) and the generated scenarios (`datasets/synthetic/`) are committed, so the
+commands below work without downloading anything. To rebuild from the raw sources: `python datasets/fetch_raw.py` then
+`python datasets/build_datasets.py`.
 
 ## Usage
 
-TBD - the exact commands, with a working example.
+```bash
+python -m floodready profile     # data profile (landing page): what was ingested, how clean it is, access before any flood
+python -m floodready evaluate    # 60 floods x 5 methods x 3 depot setups x 3 fleet sizes, statistics, sensitivity, robustness (~3 min)
+python -m floodready report      # figures (results/figures/) and results/METRICS.md
+python -m floodready demo --scenario severe_11 --trucks 4 --map results/demo_map.png   # one-scenario walkthrough
+pytest                           # 23 tests
+```
+
+Example (abridged output of the demo command):
+
+```
+ 3. WHO LOSES ACCESS
+    715,833 residents cut off (44.1%) in 556 villages | 723,682 delayed 30+ min | mean travel 11.6 -> 15.8 min
+ 5. METHOD COMPARISON (unmet demand over 14 days, units)
+    do nothing 7,846 | proportional 5,199 | nearest-first (blind) 6,455 | access-aware optimiser 5,103
+```
 
 ## Evaluation
 
-TBD - what is measured, against which baseline, and the result.
+Each of 60 generated floods (20 each of mild, moderate and severe) is assessed for loss of access, then stock is allocated by five
+methods under three depot setups and three fleet sizes. Metrics: residents cut off and delayed, travel time, unmet demand, share of
+avoidable unmet demand captured, delivery waste, equity of unmet demand, truck-hours. Statistics: bootstrap confidence intervals,
+paired tests, hub choice validated on held-out floods, sensitivity sweeps, robustness to missing roads, validation checks.
+Full tables: [results/METRICS.md](results/METRICS.md). Headline findings:
+
+- Using post-flood information (who each facility now serves, what is reachable) removes most avoidable unmet demand; an optimiser adds
+  value only when trucks are scarce.
+- A single depot is isolated in two thirds of held-out floods; three pre-positioned hubs cut that to 10% (72% of facilities reachable
+  against 45%).
+- What remains unmet is mostly unreachable by road, which points to pre-positioning stock at facilities and to non-road access.
 
 ## Limitations
 
-TBD - what this does not do, the assumptions it makes, and what real deployment would need.
+Stock, demand, depot, fleet and flood extents are **generated** (seed 42), so results show how the method behaves under stated
+assumptions and are not findings about a real flood. Road data is a July 2022 snapshot; travel speeds are assumed; human-health
+facilities are identified by name only; 11 facilities serve no village on a travel-time basis. See
+[datasets/synthetic/ASSUMPTIONS.md](datasets/synthetic/ASSUMPTIONS.md) and [datasets/AUDIT.md](datasets/AUDIT.md).
 
 ## Project layout
 
-TBD - added once the code exists.
+```
+floodready/   network.py (road graph) impact.py (access loss) allocate.py (methods) evaluate.py profile.py report.py demo.py
+datasets/     raw (ignored), processed (real, cleaned), synthetic (generated), audit, build and fetch scripts
+results/      CSV outputs, METRICS.md, figures/
+tests/        23 tests
+docs/         DEMO_SCRIPT.md
+```
 
 ## Contributing
 
