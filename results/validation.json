@@ -1,0 +1,14 @@
+{
+  "circuity_median": 1.3730283999594144,
+  "circuity_p90": 2.640593451520101,
+  "circuity_plausible_1_to_2": true,
+  "nearest_facility_agreement_pop_weighted": 0.7006613603599233,
+  "pop_assigned_equals_connected": true,
+  "share_cut_off_by_severity": {
+    "mild": 0.03225753758699824,
+    "moderate": 0.22415991340705155,
+    "severe": 0.45801437832513414
+  },
+  "severity_monotonic": true,
+  "n_scenarios": 60
+}

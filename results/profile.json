@@ -1,0 +1,54 @@
+{
+  "ingestion": {
+    "villages": 1188,
+    "residents": 1622303,
+    "road_segments": 1136,
+    "road_km": 3525.1046958699776,
+    "facility_categories_raw": {
+      "Transport/Admin": 351,
+      "Education": 310,
+      "Agro": 261,
+      "Medical": 119
+    },
+    "medical_raw": 119,
+    "veterinary_removed": 32,
+    "human_health_facilities": 87
+  },
+  "villages": {
+    "median_residents": 985.5,
+    "min": 5,
+    "max": 15607,
+    "villages_over_3000": 104,
+    "residents_in_villages_over_3000_share": 0.3061185240981494
+  },
+  "facilities": {
+    "per_100k_residents": 5.3627466632312215,
+    "median_residents_served": 13895.0,
+    "p90_residents_served": 43454.40000000001,
+    "max_residents_served": 108804.0,
+    "zero_catchment": 11,
+    "over_30k_residents": 18
+  },
+  "access_before_flood": {
+    "mean_min": 12.123552494897288,
+    "median_min": 10.065698387281207,
+    "p90_min": 24.294867608936336,
+    "villages_over_30_min": 88,
+    "residents_over_30_min": 63853,
+    "unconnected_villages": 20,
+    "unconnected_residents": 14405
+  },
+  "stock": {
+    "median_days_of_cover": 14.128552510950392,
+    "facilities_under_7_days": 6,
+    "facilities_under_14_days": 40,
+    "total_demand_per_day": 3244.606,
+    "data_origin": "generated (datasets/synthetic/ASSUMPTIONS.md)"
+  },
+  "network": {
+    "nodes": 2223,
+    "edges": 2943,
+    "snap_m": 10.0,
+    "segments_in_main_share_at_10m": 0.9867957746478874
+  }
+}

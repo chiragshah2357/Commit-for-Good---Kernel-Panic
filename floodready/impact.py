@@ -80,6 +80,7 @@ def assess(district: District, scenario: Scenario = NO_FLOOD, before=None) -> Im
     return Impact(scenario=scenario, villages=v, summary=summary)
 
 
-def baseline(district: District):
-    """Precompute the no-flood nearest-facility distances, to pass as `before=` when assessing many scenarios."""
-    return _nearest_facility(district, NO_FLOOD)
+def baseline(district: District, scenario: Scenario = NO_FLOOD):
+    """Precompute the reference (no-flood) nearest-facility distances, to pass as `before=` when assessing many scenarios.
+    `scenario` lets a robustness test use a reference network with some roads missing."""
+    return _nearest_facility(district, scenario)
