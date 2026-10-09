@@ -1,0 +1,11 @@
+vehicle_id,type,capacity_units,used_in_road_model
+T1,truck,3000,True
+T2,truck,3000,True
+T3,truck,3000,True
+T4,truck,3000,True
+T5,truck,3000,True
+T6,truck,3000,True
+T7,truck,3000,True
+T8,truck,3000,True
+B1,boat,800,False
+B2,boat,800,False

@@ -1,0 +1,88 @@
+facility_id,name,lon,lat,catchment_pop,demand_per_day,days_of_cover,stock_units,data_origin
+959182,RUKNI TE HOSPITAL,92.88858253,24.618103469999998,14386,28.772000000000002,17.3,497,synthetic_stock;real_location_and_catchment_population
+900036,DERBY TE HOSPITAL,92.79485043,24.6658545,14372,28.744,19.0,545,synthetic_stock;real_location_and_catchment_population
+958131,IRONGMARA TE HOSPITAL,92.69150833,24.622276789999997,22872,45.744,14.2,650,synthetic_stock;real_location_and_catchment_population
+900308,HARINA MPHC,92.9339115,24.640341620000004,19313,38.626,8.1,314,synthetic_stock;real_location_and_catchment_population
+965419,Berenga PHC,92.83028424000001,24.807440349999997,13531,27.062,29.1,788,synthetic_stock;real_location_and_catchment_population
+876158,MG Model Hospital Tikal Salganga,92.959497207775,24.924041535704998,11885,23.77,16.2,385,synthetic_stock;real_location_and_catchment_population
+937941,S.S.Polyclinic,92.79250759,24.776255409999997,0,0.0,7.2,0,synthetic_stock;real_location_and_catchment_population
+929579,Sonabarighat sub Health centre,92.83426339,24.75591665,33052,66.104,13.8,910,synthetic_stock;real_location_and_catchment_population
+912333,Emanual Hospital,93.01549,24.824093333333,10998,21.996000000000002,16.1,354,synthetic_stock;real_location_and_catchment_population
+888197,Government Dental College,92.7912484,24.77303806,3458,6.916,14.8,102,synthetic_stock;real_location_and_catchment_population
+959180,SONAI TE HOSPITAL,92.95001942,24.579642209999996,25976,51.952,5.4,278,synthetic_stock;real_location_and_catchment_population
+888127,Nightingale Hospital,92.79254645000002,24.79285562999999,0,0.0,30.8,0,synthetic_stock;real_location_and_catchment_population
+966003,MG Katigorah Model Hospital,92.573258,24.87642738,59496,118.992,23.2,2755,synthetic_stock;real_location_and_catchment_population
+888123,Valley Hospital,92.7959275,24.784286789999996,0,0.0,17.5,0,synthetic_stock;real_location_and_catchment_population
+888174,SS Polyclinic and  Nursing Home,92.79245532,24.776282220000002,9816,19.632,10.4,204,synthetic_stock;real_location_and_catchment_population
+964438,Digorkhal New Primary Health Centre,92.51510056,24.980310539999998,62655,125.31,14.7,1839,synthetic_stock;real_location_and_catchment_population
+965433,Madhurbond PHC,92.81794082,24.818808679999997,13504,27.008,35.3,954,synthetic_stock;real_location_and_catchment_population
+879304,Jirighat Mini PHC,93.105791666666,24.810056666666,27100,54.2,12.3,668,synthetic_stock;real_location_and_catchment_population
+885520,Harinagar BPHC,93.11317121,24.91921232,21383,42.766,12.2,520,synthetic_stock;real_location_and_catchment_population
+888162,Green Heals Hospital Pvt Ltd,92.79557429,24.78710246,0,0.0,17.2,0,synthetic_stock;real_location_and_catchment_population
+958628,Uttar Lalpani PHC,93.078998333333,24.819808333332997,8985,17.97,8.1,146,synthetic_stock;real_location_and_catchment_population
+907956,vatenary hospital,92.89129904,24.666028499999992,21462,42.924,5.2,225,synthetic_stock;real_location_and_catchment_population
+938065,Koomber TE Hospital,92.997777611017,24.944775262847,6793,13.586,21.8,296,synthetic_stock;real_location_and_catchment_population
+885528,Joypur SHC,93.06376134,24.881818729999992,10042,20.084,7.2,145,synthetic_stock;real_location_and_catchment_population
+923468,Coombergram  Tea Garden Hospital,92.981425691396,24.907151791266998,2374,4.748,13.1,62,synthetic_stock;real_location_and_catchment_population
+876161,Digor kashipur PHC,92.926783310249,24.845051108859,3713,7.426,11.7,87,synthetic_stock;real_location_and_catchment_population
+963180,Lalong Garden Hospital,93.034323333333,24.849176666666,9856,19.712,20.7,408,synthetic_stock;real_location_and_catchment_population
+901325,A I Centre Jatingamukh,92.73256151000001,24.884055639999996,93038,186.076,16.1,3001,synthetic_stock;real_location_and_catchment_population
+959185,BHUBANDAR TE HOSPITAL,92.88852604,24.593347080000004,5175,10.35,8.5,88,synthetic_stock;real_location_and_catchment_population
+917873,VIVEKANANDA SPECIALITY  HOSPITAL AND RESEARCH CENTRE,92.79381706,24.805829679999995,49085,98.17,14.1,1387,synthetic_stock;real_location_and_catchment_population
+958136,Burrows Memorial Christian Hospital,92.949921666667,24.825103333332997,23121,46.242000000000004,7.5,348,synthetic_stock;real_location_and_catchment_population
+877541,Patimara TE Hospital,92.936809323728,24.941431973129,4629,9.258000000000001,51.5,476,synthetic_stock;real_location_and_catchment_population
+900003,HAWAITANG MPHC,92.80662561,24.50331505999999,43683,87.366,15.1,1319,synthetic_stock;real_location_and_catchment_population
+929411,Sonai Primary Health centre,92.89009479000002,24.732321489999997,47945,95.89,10.8,1037,synthetic_stock;real_location_and_catchment_population
+900031,NARSINGPUR PHC,92.8453484,24.683887179999996,28089,56.178000000000004,12.5,705,synthetic_stock;real_location_and_catchment_population
+887699,Rengti Basti Primary Health center,92.75726785,24.77996889,26912,53.824,17.1,921,synthetic_stock;real_location_and_catchment_population
+959998,Chandighat Nugger T G Hospital,92.90159124881,24.933821833692,12676,25.352,27.7,701,synthetic_stock;real_location_and_catchment_population
+957697,SILCOORIE TE HOSPITAL,92.78696573,24.72801369,51714,103.428,20.3,2099,synthetic_stock;real_location_and_catchment_population
+960223,RE Nursing Home and Diagnostic centre,92.79347933,24.778579779999998,4000,8.0,22.4,179,synthetic_stock;real_location_and_catchment_population
+963164,Scotpur  Garden Hospital,92.966659999999,24.894978333333,3535,7.07,15.3,108,synthetic_stock;real_location_and_catchment_population
+903867,Kachudaram Model Hospital,92.93648193,24.68073519,25740,51.480000000000004,30.0,1545,synthetic_stock;real_location_and_catchment_population
+938078,Urrunabond TE Hospital,92.918413644656,24.899764861911,7485,14.97,14.7,220,synthetic_stock;real_location_and_catchment_population
+888185,Gracewell Hospital,92.79608387,24.78296712,641,1.282,7.8,10,synthetic_stock;real_location_and_catchment_population
+877557,Rongpur PHC,92.883582646027,24.855604092589996,7158,14.316,18.2,260,synthetic_stock;real_location_and_catchment_population
+956152,Arkatipur TE Hospital,92.873046426102,24.846929199992996,20326,40.652,8.2,334,synthetic_stock;real_location_and_catchment_population
+877536,Paticherra TE Hospital,93.013039799407,24.956692652776,6734,13.468,12.0,161,synthetic_stock;real_location_and_catchment_population
+950638,Superb Primary Health Care,92.892413333333,24.810486666666996,6588,13.176,18.5,244,synthetic_stock;real_location_and_catchment_population
+960725,Bikrampur Ramkamal Block PHC,92.665921300649,24.938511550426,41667,83.334,13.3,1110,synthetic_stock;real_location_and_catchment_population
+927494,Chibitabichia Model Hospital 20 beded,92.67103333333301,24.751236666666,19500,39.0,12.3,480,synthetic_stock;real_location_and_catchment_population
+963176,B P Kedi Hospital Labac,93.016215,24.843579999999005,10008,20.016000000000002,6.3,127,synthetic_stock;real_location_and_catchment_population
+963183,Thailoo Garden Hospital,93.02927,24.888603333333,10256,20.512,5.6,116,synthetic_stock;real_location_and_catchment_population
+923657,Dalu Bagan Hospital,92.78440975,24.92330206,26423,52.846000000000004,18.3,967,synthetic_stock;real_location_and_catchment_population
+937940,Gracewell hospital,92.79613275,24.782965209999993,11587,23.174,26.4,613,synthetic_stock;real_location_and_catchment_population
+877522,Doyapur TE Hospital,92.915740069001,24.878641040995,8830,17.66,10.6,187,synthetic_stock;real_location_and_catchment_population
+900007,BIDYARATANPUR MPHC,92.87154724,24.52132419,25970,51.94,33.2,1722,synthetic_stock;real_location_and_catchment_population
+966483,Fulbari Primary Health Centre,92.65214438,24.85583382,49543,99.086,12.0,1187,synthetic_stock;real_location_and_catchment_population
+908132,Mahatma Gandhi Model Hospital,92.81847838,24.874824700000005,27372,54.744,14.5,791,synthetic_stock;real_location_and_catchment_population
+888112,Jeevan Jyoti Institute of Medical Sciences,92.79354022000001,24.7876147,0,0.0,27.9,0,synthetic_stock;real_location_and_catchment_population
+914520,Natun Ramnagar SD,92.96131051,24.714399159999996,29523,59.046,18.8,1107,synthetic_stock;real_location_and_catchment_population
+900084,ALLENPUR TE HOSPITAL,92.75531318,24.650653099999996,6015,12.030000000000001,10.9,131,synthetic_stock;real_location_and_catchment_population
+879303,Lakhipur Block PHC,92.998714999999,24.792463333332996,26953,53.906,15.9,856,synthetic_stock;real_location_and_catchment_population
+890796,Borkhola PHC,92.74783729,24.92574739999999,27770,55.54,17.2,953,synthetic_stock;real_location_and_catchment_population
+870357,Jalalpur BPHC,92.45778734,24.991546909999997,23667,47.334,21.6,1022,synthetic_stock;real_location_and_catchment_population
+956137,Larsing TE Hospital,92.893142458051,24.911511596291994,18184,36.368,10.7,390,synthetic_stock;real_location_and_catchment_population
+900326,MG PALONGHAT MODEL HOSPITAL,92.88231312,24.645840840000005,16322,32.644,13.7,448,synthetic_stock;real_location_and_catchment_population
+956218,Cossipur TE Hospital,92.872249223291,24.821349224075,14798,29.596,24.8,734,synthetic_stock;real_location_and_catchment_population
+888115,Medinova Hospital,92.79151997,24.792304589999997,2773,5.546,11.1,62,synthetic_stock;real_location_and_catchment_population
+899998,DHOLAI PHC,92.84062709,24.588980239999994,26794,53.588,43.5,2331,synthetic_stock;real_location_and_catchment_population
+956263,Udharbond BPHC,92.882198290899,24.881787355988997,18243,36.486000000000004,10.7,392,synthetic_stock;real_location_and_catchment_population
+963165,Barthal Garden Hospital,93.041543333333,24.882581666666002,9860,19.72,16.5,325,synthetic_stock;real_location_and_catchment_population
+900239,BORJALENGA MPHC,92.73962969,24.675527479999992,14778,29.556,13.0,383,synthetic_stock;real_location_and_catchment_population
+861636,Chhotomamda Mini Primary Health Centre,92.98541743,24.768428319999998,23469,46.938,9.3,436,synthetic_stock;real_location_and_catchment_population
+870360,Kalain CHC,92.57289706,24.968128910000004,53258,106.516,7.7,817,synthetic_stock;real_location_and_catchment_population
+888144,South City Hospital,92.79577271,24.78553842,0,0.0,14.7,0,synthetic_stock;real_location_and_catchment_population
+888178,Choudhury Maternity clinic,92.814269755035,24.818184343166,18408,36.816,7.1,261,synthetic_stock;real_location_and_catchment_population
+963173,Baladan Garden Hospital,93.085251666666,24.882574999998997,10971,21.942,16.1,353,synthetic_stock;real_location_and_catchment_population
+963171,Narainpur Garden Hospital,92.989601666666,24.852759999999005,7339,14.678,16.3,240,synthetic_stock;real_location_and_catchment_population
+876167,Thaligram MPHC,92.928910888731,24.944664705544003,2761,5.522,6.9,38,synthetic_stock;real_location_and_catchment_population
+901803,Banskandi Community Health Centre,92.9091,24.800611666666,39282,78.56400000000001,6.5,510,synthetic_stock;real_location_and_catchment_population
+900009,PALOI TE HOSPITAL,92.82702788,24.632811600000004,17702,35.404,31.1,1101,synthetic_stock;real_location_and_catchment_population
+885687,Dewan TE Hospital,93.02581055,24.85752046,2638,5.276,26.4,139,synthetic_stock;real_location_and_catchment_population
+964431,Shivtilla M P H C,92.65819307,24.95618212999999,27383,54.766,9.6,528,synthetic_stock;real_location_and_catchment_population
+962177,Cachar Cancer Hospital and Research center,92.79772678000002,24.788899499999996,20527,41.054,7.0,288,synthetic_stock;real_location_and_catchment_population
+900323,DARMIKHAL MINI PRIMARY HEALTH CENTRE,92.91059542000002,24.616074459999993,11823,23.646,11.6,275,synthetic_stock;real_location_and_catchment_population
+946234,Rosekandi Bagan Hosspital,92.713763333333,24.693834999999996,4762,9.524000000000001,15.7,149,synthetic_stock;real_location_and_catchment_population
+963168,Bhando Garden Hospital,92.990846666666,24.899866666666,2291,4.582,9.4,43,synthetic_stock;real_location_and_catchment_population
+902085,WEST JALENGA TE HOSPITAL,92.70999847,24.66344512,17557,35.114,12.7,447,synthetic_stock;real_location_and_catchment_population
