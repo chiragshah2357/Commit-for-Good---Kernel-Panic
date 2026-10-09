@@ -40,3 +40,9 @@ datasets/raw/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Web app
+node_modules/
+web/dist/
+web/.vite/
+*.tsbuildinfo
