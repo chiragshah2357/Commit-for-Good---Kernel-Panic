@@ -1,0 +1,41 @@
+/* Design tokens. Editorial science-journal language: warm paper, ink, one flood blue, one cut-road red. */
+:root {
+  --paper: #f4efe6;
+  --paper-2: #ece5d6;
+  --paper-3: #e1d8c4;
+  --ink: #14110f;
+  --ink-2: #4a443b;
+  --ink-3: #82796a;
+  --rule: #cfc5af;
+  --rule-2: #b5aa92;
+
+  --flood: #1d4e89;
+  --flood-2: #6e93c2;
+  --flood-soft: #d3dcea;
+  --cut: #c0392b;
+  --cut-soft: #efd4ce;
+  --delay: #c98a1b;
+  --delay-soft: #f1e1bd;
+  --ok: #2f6b5e;
+  --ok-soft: #cfe0d9;
+  --grey: #9c9486;
+
+  /* allocation methods */
+  --p-none: #9c9486;
+  --p-proportional: #c98a1b;
+  --p-nearest_first: #7a8ca3;
+  --p-nearest_first_post: #5e8c6a;
+  --p-access_opt: #1d4e89;
+
+  --font-display: "Fraunces Variable", "Iowan Old Style", Georgia, serif;
+  --font-body: "Inter Tight Variable", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, "SFMono-Regular", Consolas, monospace;
+
+  --gutter: clamp(16px, 4vw, 56px);
+  --wrap: 1360px;
+  --measure: 64ch;
+  --nav-h: 56px;
+
+  --ease: cubic-bezier(0.22, 0.8, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.76, 0, 0.24, 1);
+}

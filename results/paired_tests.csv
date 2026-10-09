@@ -1,0 +1,145 @@
+severity,treatment,reference,metric,mean_diff,ci_low,ci_high,win_rate,tie_rate,wilcoxon_p,n,config,fleet
+mild,access_opt,none,unmet_units,-11060.441600000002,-11393.435185,-10702.999355000004,1.0,0.0,8.819870204194453e-05,20,single depot (Silchar centre),2
+mild,access_opt,proportional,unmet_units,-4524.037821561321,-4643.170027708669,-4401.145159114161,1.0,0.0,8.782404130245517e-05,20,single depot (Silchar centre),2
+mild,access_opt,nearest_first,unmet_units,-3524.8696000000004,-3920.8447800000004,-3097.2987350000003,1.0,0.0,8.782404130245517e-05,20,single depot (Silchar centre),2
+mild,access_opt,nearest_first_post,unmet_units,-1324.2133999999999,-1400.8979049999998,-1246.982135,1.0,0.0,8.782404130245517e-05,20,single depot (Silchar centre),2
+moderate,access_opt,none,unmet_units,-3653.407400000001,-4611.23283,-2943.5238300000005,1.0,0.0,8.844915021211901e-05,20,single depot (Silchar centre),2
+moderate,access_opt,proportional,unmet_units,-297.8181022490582,-813.0543067471747,-26.80000000000009,0.45,0.55,0.00390625,20,single depot (Silchar centre),2
+moderate,access_opt,nearest_first,unmet_units,-1103.1616000000006,-1717.6884750000008,-674.2898300000004,1.0,0.0,1.9073486328125e-06,20,single depot (Silchar centre),2
+moderate,access_opt,nearest_first_post,unmet_units,-116.30620000000002,-348.9186000000001,0.0,0.05,0.95,,20,single depot (Silchar centre),2
+severe,access_opt,none,unmet_units,-505.8464000000002,-816.4219600000001,-217.5621900000001,0.35,0.65,0.015625,20,single depot (Silchar centre),2
+severe,access_opt,proportional,unmet_units,-10.719999999999937,-26.799999999999862,0.0,0.1,0.9,,20,single depot (Silchar centre),2
+severe,access_opt,nearest_first,unmet_units,-87.84460000000013,-146.34909500000023,-36.29759999999997,0.35,0.65,0.015625,20,single depot (Silchar centre),2
+severe,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single depot (Silchar centre),2
+all,access_opt,none,unmet_units,-5073.2318000000005,-6262.646995000001,-3900.163625000001,0.7833333333333333,0.21666666666666667,2.3943789164393158e-09,60,single depot (Silchar centre),2
+all,access_opt,proportional,unmet_units,-1610.858641270126,-2169.035299795533,-1064.3211945433754,0.5166666666666667,0.48333333333333334,1.1434068258711935e-06,60,single depot (Silchar centre),2
+all,access_opt,nearest_first,unmet_units,-1571.9586000000002,-2009.3752300000003,-1154.0216516666671,0.7833333333333333,0.21666666666666667,2.3925407511277006e-09,60,single depot (Silchar centre),2
+all,access_opt,nearest_first_post,unmet_units,-480.17319999999995,-654.0557733333333,-313.21502833333335,0.35,0.65,5.91118392144742e-05,60,single depot (Silchar centre),2
+mild,access_opt,none,unmet_units,-11676.415000000003,-11986.281555000003,-11356.085245000002,1.0,0.0,8.819870204194453e-05,20,single depot (Silchar centre),4
+mild,access_opt,proportional,unmet_units,-3324.454517424877,-3429.430858003725,-3218.131926672165,1.0,0.0,8.782404130245517e-05,20,single depot (Silchar centre),4
+mild,access_opt,nearest_first,unmet_units,-2835.1944,-3279.6458700000003,-2344.392245,1.0,0.0,8.782404130245517e-05,20,single depot (Silchar centre),4
+mild,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single depot (Silchar centre),4
+moderate,access_opt,none,unmet_units,-3691.692600000001,-4727.108845000001,-2943.5238300000005,1.0,0.0,8.844915021211901e-05,20,single depot (Silchar centre),4
+moderate,access_opt,proportional,unmet_units,-264.5893705760477,-713.3681117281432,-26.80000000000009,0.45,0.55,0.00390625,20,single depot (Silchar centre),4
+moderate,access_opt,nearest_first,unmet_units,-1043.5576000000005,-1548.98906,-674.2898300000004,1.0,0.0,1.9073486328125e-06,20,single depot (Silchar centre),4
+moderate,access_opt,nearest_first_post,unmet_units,-1.1543999999999983,-3.4631999999999947,0.0,0.05,0.95,,20,single depot (Silchar centre),4
+severe,access_opt,none,unmet_units,-505.8464000000002,-816.4219600000001,-217.5621900000001,0.35,0.65,0.015625,20,single depot (Silchar centre),4
+severe,access_opt,proportional,unmet_units,-10.719999999999937,-26.799999999999862,0.0,0.1,0.9,,20,single depot (Silchar centre),4
+severe,access_opt,nearest_first,unmet_units,-87.84460000000013,-146.34909500000023,-36.29759999999997,0.35,0.65,0.015625,20,single depot (Silchar centre),4
+severe,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single depot (Silchar centre),4
+all,access_opt,none,unmet_units,-5291.318000000001,-6555.933758333335,-4031.642068333334,0.7833333333333333,0.21666666666666667,2.3943789164393158e-09,60,single depot (Silchar centre),4
+all,access_opt,proportional,unmet_units,-1199.921296000308,-1613.4413317193341,-799.3116513627639,0.5166666666666667,0.48333333333333334,1.1434068258711935e-06,60,single depot (Silchar centre),4
+all,access_opt,nearest_first,unmet_units,-1322.1988666666668,-1709.435738333333,-981.749895,0.7833333333333333,0.21666666666666667,2.3925407511277006e-09,60,single depot (Silchar centre),4
+all,access_opt,nearest_first_post,unmet_units,-0.3847999999999994,-1.1543999999999983,0.0,0.016666666666666666,0.9833333333333333,,60,single depot (Silchar centre),4
+mild,access_opt,none,unmet_units,-11676.415000000003,-11986.281555000003,-11356.085245000002,1.0,0.0,8.819870204194453e-05,20,single depot (Silchar centre),8
+mild,access_opt,proportional,unmet_units,-1810.6144771624174,-1975.725469072318,-1635.5180406072657,1.0,0.0,8.782404130245517e-05,20,single depot (Silchar centre),8
+mild,access_opt,nearest_first,unmet_units,-2835.1944,-3279.6458700000003,-2344.392245,1.0,0.0,8.782404130245517e-05,20,single depot (Silchar centre),8
+mild,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single depot (Silchar centre),8
+moderate,access_opt,none,unmet_units,-3693.5632000000014,-4730.850045000001,-2943.5238300000005,1.0,0.0,8.844915021211901e-05,20,single depot (Silchar centre),8
+moderate,access_opt,proportional,unmet_units,-162.96024335012288,-408.4807300503686,-26.80000000000009,0.45,0.55,0.00390625,20,single depot (Silchar centre),8
+moderate,access_opt,nearest_first,unmet_units,-1034.9650000000006,-1528.4151450000006,-674.2898300000004,1.0,0.0,1.9073486328125e-06,20,single depot (Silchar centre),8
+moderate,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single depot (Silchar centre),8
+severe,access_opt,none,unmet_units,-505.8464000000002,-816.4219600000001,-217.5621900000001,0.35,0.65,0.015625,20,single depot (Silchar centre),8
+severe,access_opt,proportional,unmet_units,-10.719999999999937,-26.799999999999862,0.0,0.1,0.9,,20,single depot (Silchar centre),8
+severe,access_opt,nearest_first,unmet_units,-87.84460000000013,-146.34909500000023,-36.29759999999997,0.35,0.65,0.015625,20,single depot (Silchar centre),8
+severe,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single depot (Silchar centre),8
+all,access_opt,none,unmet_units,-5291.9415333333345,-6557.165236666668,-4031.646870000001,0.7833333333333333,0.21666666666666667,2.3943789164393158e-09,60,single depot (Silchar centre),8
+all,access_opt,proportional,unmet_units,-661.43157350418,-894.5586519998075,-437.44715706054257,0.5166666666666667,0.48333333333333334,1.1434068258711935e-06,60,single depot (Silchar centre),8
+all,access_opt,nearest_first,unmet_units,-1319.3346666666669,-1702.8196333333335,-981.749895,0.7833333333333333,0.21666666666666667,2.3925407511277006e-09,60,single depot (Silchar centre),8
+all,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,60,single depot (Silchar centre),8
+mild,access_opt,none,unmet_units,-11204.129600000002,-11528.50466,-10856.434700000005,1.0,0.0,8.819870204194453e-05,20,single resilient depot,2
+mild,access_opt,proportional,unmet_units,-4167.7538215613195,-4327.240202422386,-3992.496290595001,1.0,0.0,8.782404130245517e-05,20,single resilient depot,2
+mild,access_opt,nearest_first,unmet_units,-3494.4974,-3882.743145,-3070.766275,1.0,0.0,8.782404130245517e-05,20,single resilient depot,2
+mild,access_opt,nearest_first_post,unmet_units,-1214.9958000000001,-1324.546085,-1108.70273,1.0,0.0,8.782404130245517e-05,20,single resilient depot,2
+moderate,access_opt,none,unmet_units,-3651.737000000001,-4607.808510000001,-2943.5238300000005,1.0,0.0,8.844915021211901e-05,20,single resilient depot,2
+moderate,access_opt,proportional,unmet_units,-296.1477022490582,-808.0431067471748,-26.80000000000009,0.45,0.55,0.00390625,20,single resilient depot,2
+moderate,access_opt,nearest_first,unmet_units,-1101.4912000000004,-1712.6772750000007,-674.2898300000004,1.0,0.0,1.9073486328125e-06,20,single resilient depot,2
+moderate,access_opt,nearest_first_post,unmet_units,-114.63580000000002,-343.90740000000005,0.0,0.05,0.95,,20,single resilient depot,2
+severe,access_opt,none,unmet_units,-1253.9066000000007,-1414.4271250000006,-1075.2599550000004,0.95,0.05,0.0001314204445389205,20,single resilient depot,2
+severe,access_opt,proportional,unmet_units,-64.56119999999991,-100.49363999999996,-32.16000000000008,0.45,0.55,0.00390625,20,single resilient depot,2
+severe,access_opt,nearest_first,unmet_units,-363.4988000000002,-477.3131050000002,-272.16933500000016,0.95,0.05,0.00013018593685836283,20,single resilient depot,2
+severe,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single resilient depot,2
+all,access_opt,none,unmet_units,-5369.924400000002,-6515.156770000001,-4269.0669283333345,0.9833333333333333,0.016666666666666666,2.3877688589537796e-11,60,single resilient depot,2
+all,access_opt,proportional,unmet_units,-1509.4875746034593,-2023.2196490362935,-1010.0661460181555,0.6333333333333333,0.36666666666666664,7.51219468818242e-08,60,single resilient depot,2
+all,access_opt,nearest_first,unmet_units,-1653.162466666667,-2077.287483333333,-1256.4915333333336,0.9833333333333333,0.016666666666666666,2.384670085306439e-11,60,single resilient depot,2
+all,access_opt,nearest_first_post,unmet_units,-443.2105333333333,-605.7983066666667,-284.89938166666684,0.35,0.65,5.91118392144742e-05,60,single resilient depot,2
+mild,access_opt,none,unmet_units,-11676.415000000003,-11986.281555000003,-11356.085245000002,1.0,0.0,8.819870204194453e-05,20,single resilient depot,4
+mild,access_opt,proportional,unmet_units,-3172.4385174248764,-3288.30404711732,-3056.1132552531585,1.0,0.0,8.782404130245517e-05,20,single resilient depot,4
+mild,access_opt,nearest_first,unmet_units,-2835.1944,-3279.6458700000003,-2344.392245,1.0,0.0,8.782404130245517e-05,20,single resilient depot,4
+mild,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single resilient depot,4
+moderate,access_opt,none,unmet_units,-3690.5382000000013,-4724.783980000001,-2943.5238300000005,1.0,0.0,8.844915021211901e-05,20,single resilient depot,4
+moderate,access_opt,proportional,unmet_units,-268.56957057604774,-725.3087117281432,-26.80000000000009,0.45,0.55,0.00390625,20,single resilient depot,4
+moderate,access_opt,nearest_first,unmet_units,-1042.4032000000007,-1546.6225400000003,-674.2898300000004,1.0,0.0,1.9073486328125e-06,20,single resilient depot,4
+moderate,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single resilient depot,4
+severe,access_opt,none,unmet_units,-1253.9066000000007,-1414.4271250000006,-1075.2599550000004,0.95,0.05,0.0001314204445389205,20,single resilient depot,4
+severe,access_opt,proportional,unmet_units,-64.56119999999991,-100.49363999999996,-32.16000000000008,0.45,0.55,0.00390625,20,single resilient depot,4
+severe,access_opt,nearest_first,unmet_units,-363.4988000000002,-477.3131050000002,-272.16933500000016,0.95,0.05,0.00013018593685836283,20,single resilient depot,4
+severe,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single resilient depot,4
+all,access_opt,none,unmet_units,-5540.286600000002,-6738.89859666667,-4376.188921666667,0.9833333333333333,0.016666666666666666,2.3877688589537796e-11,60,single resilient depot,4
+all,access_opt,proportional,unmet_units,-1168.523096000308,-1558.55897557729,-781.3378628899236,0.6333333333333333,0.36666666666666664,7.51219468818242e-08,60,single resilient depot,4
+all,access_opt,nearest_first,unmet_units,-1413.6988,-1777.4432183333336,-1087.87769,0.9833333333333333,0.016666666666666666,2.384670085306439e-11,60,single resilient depot,4
+all,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,60,single resilient depot,4
+mild,access_opt,none,unmet_units,-11676.415000000003,-11986.281555000003,-11356.085245000002,1.0,0.0,8.819870204194453e-05,20,single resilient depot,8
+mild,access_opt,proportional,unmet_units,-1810.6144771624174,-1975.725469072318,-1635.5180406072657,1.0,0.0,8.782404130245517e-05,20,single resilient depot,8
+mild,access_opt,nearest_first,unmet_units,-2835.1944,-3279.6458700000003,-2344.392245,1.0,0.0,8.782404130245517e-05,20,single resilient depot,8
+mild,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single resilient depot,8
+moderate,access_opt,none,unmet_units,-3693.5632000000014,-4730.850045000001,-2943.5238300000005,1.0,0.0,8.844915021211901e-05,20,single resilient depot,8
+moderate,access_opt,proportional,unmet_units,-167.51824335012287,-422.1547300503686,-26.80000000000009,0.45,0.55,0.00390625,20,single resilient depot,8
+moderate,access_opt,nearest_first,unmet_units,-1034.9650000000006,-1528.4151450000006,-674.2898300000004,1.0,0.0,1.9073486328125e-06,20,single resilient depot,8
+moderate,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single resilient depot,8
+severe,access_opt,none,unmet_units,-1253.9066000000007,-1414.4271250000006,-1075.2599550000004,0.95,0.05,0.0001314204445389205,20,single resilient depot,8
+severe,access_opt,proportional,unmet_units,-64.56119999999991,-100.49363999999996,-32.16000000000008,0.45,0.55,0.00390625,20,single resilient depot,8
+severe,access_opt,nearest_first,unmet_units,-363.4988000000002,-477.3131050000002,-272.16933500000016,0.95,0.05,0.00013018593685836283,20,single resilient depot,8
+severe,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,single resilient depot,8
+all,access_opt,none,unmet_units,-5541.294933333335,-6738.949013333336,-4376.21413,0.9833333333333333,0.016666666666666666,2.3877688589537796e-11,60,single resilient depot,8
+all,access_opt,proportional,unmet_units,-680.8979735041798,-910.4525629683468,-456.4319609393416,0.6333333333333333,0.36666666666666664,7.51219468818242e-08,60,single resilient depot,8
+all,access_opt,nearest_first,unmet_units,-1411.2194000000002,-1772.4695150000002,-1087.3672316666668,0.9833333333333333,0.016666666666666666,2.384670085306439e-11,60,single resilient depot,8
+all,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,60,single resilient depot,8
+mild,access_opt,none,unmet_units,-11671.299200000003,-11978.722595000001,-11351.966305000004,1.0,0.0,8.819870204194453e-05,20,three hubs,2
+mild,access_opt,proportional,unmet_units,-7086.453550417054,-7377.60323110744,-6791.84965142079,1.0,0.0,8.782404130245517e-05,20,three hubs,2
+mild,access_opt,nearest_first,unmet_units,-2947.0022,-3405.551215,-2434.84621,1.0,0.0,8.782404130245517e-05,20,three hubs,2
+mild,access_opt,nearest_first_post,unmet_units,-95.2616,-171.659885,-35.79226500000001,0.55,0.45,0.0009765625,20,three hubs,2
+moderate,access_opt,none,unmet_units,-6970.628999999999,-7904.468755000001,-6178.754095000004,1.0,0.0,1.9073486328125e-06,20,three hubs,2
+moderate,access_opt,proportional,unmet_units,-1479.0929694049446,-2420.697394781205,-685.6578594076246,1.0,0.0,8.844915021211901e-05,20,three hubs,2
+moderate,access_opt,nearest_first,unmet_units,-2761.509000000001,-3179.0017300000004,-2414.3208600000007,1.0,0.0,1.9073486328125e-06,20,three hubs,2
+moderate,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,three hubs,2
+severe,access_opt,none,unmet_units,-2683.2914000000005,-3019.748605,-2317.9897750000005,1.0,0.0,8.844915021211901e-05,20,three hubs,2
+severe,access_opt,proportional,unmet_units,-162.50303370482743,-230.67430182050543,-103.57081342460222,0.75,0.25,0.0006533107814151376,20,three hubs,2
+severe,access_opt,nearest_first,unmet_units,-1329.1464000000003,-1487.6832550000004,-1147.5322150000006,1.0,0.0,1.9073486328125e-06,20,three hubs,2
+severe,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,three hubs,2
+all,access_opt,none,unmet_units,-7108.406533333334,-8129.165478333334,-6140.069763333335,1.0,0.0,1.6285331829622064e-11,60,three hubs,2
+all,access_opt,proportional,unmet_units,-2909.3498511756097,-3755.985703629573,-2114.684952983655,0.9166666666666666,0.08333333333333333,1.1059609376834579e-10,60,three hubs,2
+all,access_opt,nearest_first,unmet_units,-2345.885866666666,-2618.178098333334,-2073.397465,1.0,0.0,1.6280220973983747e-11,60,three hubs,2
+all,access_opt,nearest_first_post,unmet_units,-31.753866666666667,-61.85030833333334,-9.526340000000003,0.18333333333333332,0.8166666666666667,0.0009765625,60,three hubs,2
+mild,access_opt,none,unmet_units,-11676.415000000003,-11986.281555000003,-11356.085245000002,1.0,0.0,8.819870204194453e-05,20,three hubs,4
+mild,access_opt,proportional,unmet_units,-3602.654145452717,-3903.633477027827,-3298.8911598594673,1.0,0.0,8.596886147715013e-05,20,three hubs,4
+mild,access_opt,nearest_first,unmet_units,-2835.1944,-3279.6458700000003,-2344.392245,1.0,0.0,8.782404130245517e-05,20,three hubs,4
+mild,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,three hubs,4
+moderate,access_opt,none,unmet_units,-6970.628999999999,-7904.468755000001,-6178.754095000004,1.0,0.0,1.9073486328125e-06,20,three hubs,4
+moderate,access_opt,proportional,unmet_units,-811.9270742674344,-1355.2667315489143,-375.54503220377825,0.95,0.05,0.00013162704518922692,20,three hubs,4
+moderate,access_opt,nearest_first,unmet_units,-2723.6082000000006,-3110.3818800000004,-2396.6517050000007,1.0,0.0,1.9073486328125e-06,20,three hubs,4
+moderate,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,three hubs,4
+severe,access_opt,none,unmet_units,-2683.2914000000005,-3019.748605,-2317.9897750000005,1.0,0.0,8.844915021211901e-05,20,three hubs,4
+severe,access_opt,proportional,unmet_units,-162.50303370482743,-230.67430182050543,-103.57081342460222,0.75,0.25,0.0006533107814151376,20,three hubs,4
+severe,access_opt,nearest_first,unmet_units,-1329.1464000000003,-1487.6832550000004,-1147.5322150000006,1.0,0.0,1.9073486328125e-06,20,three hubs,4
+severe,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,three hubs,4
+all,access_opt,none,unmet_units,-7110.111800000001,-8131.56539,-6141.672826666667,1.0,0.0,1.6285331829622064e-11,60,three hubs,4
+all,access_opt,proportional,unmet_units,-1525.6947511416595,-1954.503846211851,-1116.2524269099144,0.9,0.1,1.6181525840376237e-10,60,three hubs,4
+all,access_opt,nearest_first,unmet_units,-2295.9829999999997,-2561.150426666667,-2035.1821316666674,1.0,0.0,1.6280220973983747e-11,60,three hubs,4
+all,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,60,three hubs,4
+mild,access_opt,none,unmet_units,-11676.415000000003,-11986.281555000003,-11356.085245000002,1.0,0.0,8.819870204194453e-05,20,three hubs,8
+mild,access_opt,proportional,unmet_units,-3550.384109022985,-3836.177963249499,-3252.3864723450215,1.0,0.0,8.596886147715013e-05,20,three hubs,8
+mild,access_opt,nearest_first,unmet_units,-2835.1944,-3279.6458700000003,-2344.392245,1.0,0.0,8.782404130245517e-05,20,three hubs,8
+mild,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,three hubs,8
+moderate,access_opt,none,unmet_units,-6970.628999999999,-7904.468755000001,-6178.754095000004,1.0,0.0,1.9073486328125e-06,20,three hubs,8
+moderate,access_opt,proportional,unmet_units,-779.7078742674345,-1290.8070793724225,-361.4309485887682,0.95,0.05,0.00013162704518922692,20,three hubs,8
+moderate,access_opt,nearest_first,unmet_units,-2723.6082000000006,-3110.3818800000004,-2396.6517050000007,1.0,0.0,1.9073486328125e-06,20,three hubs,8
+moderate,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,three hubs,8
+severe,access_opt,none,unmet_units,-2683.2914000000005,-3019.748605,-2317.9897750000005,1.0,0.0,8.844915021211901e-05,20,three hubs,8
+severe,access_opt,proportional,unmet_units,-162.50303370482743,-230.67430182050543,-103.57081342460222,0.75,0.25,0.0006533107814151376,20,three hubs,8
+severe,access_opt,nearest_first,unmet_units,-1329.1464000000003,-1487.6832550000004,-1147.5322150000006,1.0,0.0,1.9073486328125e-06,20,three hubs,8
+severe,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,20,three hubs,8
+all,access_opt,none,unmet_units,-7110.111800000001,-8131.56539,-6141.672826666667,1.0,0.0,1.6285331829622064e-11,60,three hubs,8
+all,access_opt,proportional,unmet_units,-1497.531672331749,-1918.8347243979501,-1101.3709519099148,0.9,0.1,1.6181525840376237e-10,60,three hubs,8
+all,access_opt,nearest_first,unmet_units,-2295.9829999999997,-2561.150426666667,-2035.1821316666674,1.0,0.0,1.6280220973983747e-11,60,three hubs,8
+all,access_opt,nearest_first_post,unmet_units,0.0,0.0,0.0,0.0,1.0,,60,three hubs,8
