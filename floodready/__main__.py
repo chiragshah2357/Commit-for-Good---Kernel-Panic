@@ -1,4 +1,4 @@
-"""Command line: python -m floodready evaluate | profile | demo"""
+"""Command line: python -m floodready profile | evaluate | report | demo [--scenario severe_11 --trucks 4 --config hubs --map out.png]"""
 import sys
 
 
@@ -13,6 +13,16 @@ def main(argv):
     elif cmd == "report":
         from .report import main as run
         run()
+    elif cmd == "demo":
+        import argparse
+        from .demo import run
+        ap = argparse.ArgumentParser(prog="python -m floodready demo")
+        ap.add_argument("--scenario", default="severe_11")
+        ap.add_argument("--trucks", type=int, default=4)
+        ap.add_argument("--config", choices=["single", "hubs"], default="hubs")
+        ap.add_argument("--map", default=None, help="write a map PNG to this path")
+        a = ap.parse_args(argv[2:])
+        run(a.scenario, a.trucks, a.config, a.map)
     else:
         print(__doc__)
 
