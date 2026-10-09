@@ -1,0 +1,41 @@
+# Secrets - never commit these. Commit .env.example instead.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Large third-party data: document the source in the README and use a
+# download script instead of committing it. Small generated samples go in
+# data/sample/ and are kept.
+data/raw/
+data/external/
+*.zip
+*.parquet
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
