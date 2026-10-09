@@ -34,9 +34,13 @@ TBD - the approach, why this method, and a diagram.
 
 ## Data
 
-TBD - every source with its link and licence. Any generated data will be declared as generated, with the
-generation script, random seed and an assumptions table. Large third-party datasets are not committed; they are
-fetched by a script.
+Real inputs are open data (PMGSY GeoSadak roads, habitations and facilities for Cachar, Assam; OpenStreetMap
+waterways; AWS terrain tiles). Stock levels, a depot, a vehicle fleet and flood scenarios are **generated** and
+declared as such, with a fixed seed (42). Large raw downloads are not committed; `datasets/fetch_raw.py` fetches
+them. Sources, licences and the audit are in [datasets/README.md](datasets/README.md) and
+[datasets/AUDIT.md](datasets/AUDIT.md); every synthetic parameter is in
+[datasets/synthetic/ASSUMPTIONS.md](datasets/synthetic/ASSUMPTIONS.md). Results on generated data demonstrate a
+method, not a measured real-world outcome.
 
 ## Installation
 

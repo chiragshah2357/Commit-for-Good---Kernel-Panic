@@ -31,6 +31,7 @@ env/
 # data/sample/ and are kept.
 data/raw/
 data/external/
+datasets/raw/
 *.zip
 *.parquet
 
