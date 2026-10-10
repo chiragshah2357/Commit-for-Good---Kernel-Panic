@@ -40,16 +40,19 @@ function Gauge({ value, ref0, nf }: { value: number; ref0: number; nf: number })
   );
 }
 
-const COMP: { k: keyof IndexResult["components"]; l: string; f: string }[] = [
-  { k: "access", l: "Access retained", f: "1 − (residents cut off or delayed) ÷ (connected residents)" },
-  { k: "supply", l: "Supply continuity", f: "1 − (unmet units + units in cut-off villages) ÷ (14-day demand)" },
-  { k: "equity", l: "Equity", f: "1 − (working facilities more than 25% short) ÷ (working facilities)" },
-  { k: "reach", l: "Hub reach", f: "(working facilities a hub can reach) ÷ (working facilities)" },
+/* `demand` is the denominator label for the current set-up, so the formula follows the planning horizon and demand rate. */
+const COMP: { k: keyof IndexResult["components"]; l: string; f: (demand: string) => string }[] = [
+  { k: "access", l: "Access retained", f: () => "1 − (residents cut off or delayed) ÷ (connected residents)" },
+  { k: "supply", l: "Supply continuity", f: (demand) => `1 − (unmet units + units in cut-off villages) ÷ (${demand})` },
+  { k: "equity", l: "Equity", f: () => "1 − (working facilities more than 25% short) ÷ (working facilities)" },
+  { k: "reach", l: "Hub reach", f: () => "(working facilities a hub can reach) ÷ (working facilities)" },
 ];
 
 export function IndexCard({ sim }: { sim: SimResult }) {
   const ch = sim.policies[sim.chosen.policy], idx = ch.index;
   const [math, setMath] = useState(false);
+  const horizon = Number((sim.setup as any).horizon) || 14, rate = Number((sim.setup as any).rate_mult) || 1;
+  const demand = `${horizon}-day demand${Math.abs(rate - 1) > 1e-9 ? ` at ${rate.toFixed(2)}x the base rate` : ""}`;
   return (
     <div className="card idx">
       <div className="card__h"><h4>Flood-Access Resilience Index</h4><button className="linkbtn" onClick={() => setMath(!math)}>{math ? "hide the math" : "show the math"}</button></div>
@@ -60,7 +63,7 @@ export function IndexCard({ sim }: { sim: SimResult }) {
             <div key={c.k} className="idx__r">
               <div className="idx__rh"><span>{c.l}</span><b className="mono">{(idx.components[c.k] * 100).toFixed(0)}%</b><span className="idx__w mono">w {idx.weights[c.k].toFixed(2)} → {idx.contributions[c.k].toFixed(1)} pts</span></div>
               <div className="bar"><motion.i initial={false} animate={{ width: `${idx.components[c.k] * 100}%` }} transition={{ duration: 0.6, ease: [0.22, 0.8, 0.2, 1] }} /></div>
-              {math && <div className="idx__f">{c.f}</div>}
+              {math && <div className="idx__f">{c.f(demand)}</div>}
             </div>
           ))}
         </div>
