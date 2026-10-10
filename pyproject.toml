@@ -1,0 +1,21 @@
+# Read by Vercel to install ONLY what the calculator's API needs. A Python function there is capped at 500 MB, and rasterio,
+# matplotlib, pillow, networkx and the test tools (all in requirements.txt) belong to the data pipeline, the report and the tests.
+# Versions match requirements.txt. Local development is unchanged: pip install -r requirements.txt
+[project]
+name = "floodready"
+version = "1.0.0"
+description = "Flood-driven loss of road access to health facilities in Cachar, Assam, with stock allocation"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi==0.143.0",
+    "geopandas==1.2.0",
+    "numpy==2.5.3",
+    "pandas==3.0.6",
+    "pyogrio==0.13.0",
+    "pyproj==3.8.0",
+    "scipy==1.18.1",
+    "shapely==2.2.0",
+]
+
+[tool.uv]
+package = false   # install the dependencies only; do not try to build this repository as a package
