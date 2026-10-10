@@ -1,15 +1,16 @@
-// Content of the Round 1 innovation brief (9 Oct 2026), kept in one place. Numbers are quoted from the submitted PDF.
+// Content of the Round 1 innovation brief (9 Oct 2026), kept in one place. Numbers are quoted from the submitted PDF; the evidence
+// wording in Table 1 was corrected on 10 Oct 2026 after re-reading the cited pages (see "Changes since the Round 1 brief").
 
 export type EvidenceKind = "press" | "field" | "abstract" | "atlas" | "news";
 
 export const TABLE1: { indicator: string; finding: string; ref: string; type: string; kind: EvidenceKind }[] = [
-  { indicator: "People and villages affected, Assam, 3 Jul 2024", finding: "More than 11 lakh people in 28 districts; 2,208 villages in 84 revenue circles", ref: "[1]", type: "Press report of ASDMA bulletin", kind: "press" },
-  { indicator: "Facility damage, Khelua PHC area, Sivasagar", finding: "16 of 19 sub-health centres damaged; stored medicines destroyed", ref: "[2]", type: "News report (year not stated)", kind: "news" },
-  { indicator: "Facility flooding, Jalapur PHC, Cachar (May 2022)", finding: "Outpatient department under stagnant water for 7 days; medicines washed away", ref: "[3]", type: "Field report", kind: "field" },
-  { indicator: "Use of public facilities during floods (char communities, Lakhimpur)", finding: "Use fell from 62% to 38%; fever cases rose from 28.4% to 42.7%", ref: "[6]", type: "Conference abstract (secondary)", kind: "abstract" },
-  { indicator: "Population living on river islands (chars)", finding: "More than 30 lakh, about 10% of Assam's population, citing NHM Assam", ref: "[6]", type: "As reported (secondary)", kind: "abstract" },
+  { indicator: "People and villages affected, Assam, 3 Jul 2024", finding: "More than 11 lakh people in 28 districts; 2,208 villages in 84 revenue circles", ref: "[1]", type: "Press report (ETV Bharat); ASDMA bulletin not yet checked", kind: "press" },
+  { indicator: "Facility damage, Khelua PHC area, Sivasagar", finding: "16 of 19 sub-health centres damaged; stored medicines destroyed", ref: "[2]", type: "News report (24 Aug 2026)", kind: "news" },
+  { indicator: "Facility flooding, Jalapur PHC, Cachar (May 2022)", finding: "40% of the outpatient department under stagnant water for 7 days; medicines washed away", ref: "[3]", type: "Field report", kind: "field" },
+  { indicator: "Use of public facilities during floods (char/sapori communities, Assam)", finding: "Use fell from 62% to 38%; fever cases rose from 28.4% to 42.7%", ref: "[6]", type: "Conference abstract; synthesis of existing reports (secondary)", kind: "abstract" },
+  { indicator: "Population living on river islands (chars)", finding: "More than 30 lakh, about 10% of Assam's population, citing NHM Assam", ref: "[6]", type: "As reported (secondary; not re-verified)", kind: "abstract" },
   { indicator: "Long-term flood frequency", finding: "About 28.3% of Assam's land inundated at least once, 1998 to 2007", ref: "[8], [9]", type: "NRSC atlas (2011 edition) via India Water Portal", kind: "atlas" },
-  { indicator: "Official vs field accounts of medicine availability", finding: "“Adequate stock” stated at reviews; shortages for patients on daily medication reported in the field", ref: "[4], [5]", type: "News reports", kind: "news" },
+  { indicator: "Medicine availability: an official review, and a later field report", finding: "June 2022: the NHM Mission Director took stock of medicine supplies and district officials said the flood situation was under control. August 2026: shortages of medicines for people with chronic conditions reported in flood-hit areas. Different floods, so not a like-for-like comparison", ref: "[4], [5]", type: "News reports (2022, 2026)", kind: "news" },
 ];
 
 export const TABLE2: { approach: string; provides: string; limit: string; ref: string }[] = [

@@ -47,6 +47,8 @@
 .tbl tr:last-child td { border-bottom: 0; }
 .tbl td.r, .tbl th.r { text-align: right; font-variant-numeric: tabular-nums; }
 .tbl .hl td { background: rgba(29, 78, 137, 0.07); }
+.tbl .stamp { white-space: normal; align-items: flex-start; max-width: 30ch; }   /* long evidence-type labels wrap instead of widening the column */
+.tbl .stamp::before { margin-top: 4px; }
 .tbl-wrap { overflow-x: auto; }
 .tbl-cap { font-family: var(--font-display); font-style: italic; font-size: 13.5px; color: var(--ink-2); margin: 8px 0 28px; max-width: 90ch; font-variation-settings: "opsz" 14; }
 .tbl-cap b { font-style: normal; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); margin-right: 8px; }

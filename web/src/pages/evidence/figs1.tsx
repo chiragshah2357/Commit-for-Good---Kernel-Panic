@@ -172,7 +172,7 @@ export function Table3({ ev }: { ev: Evidence }) {
 /* ---------- Validation: two before/after statistics from the literature ---------- */
 export function Dumbbells() {
   const rows = [
-    { label: "Use of public health facilities during floods (char communities, Lakhimpur)", a: 62, b: 38, na: "normal", nb: "flood" },
+    { label: "Use of public health facilities during floods (char/sapori communities, Assam)", a: 62, b: 38, na: "normal", nb: "flood" },
     { label: "Fever among attendees (same study)", a: 28.4, b: 42.7, na: "normal", nb: "flood" },
   ];
   return (

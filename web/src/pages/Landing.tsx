@@ -194,8 +194,8 @@ export default function Landing() {
           </Reveal>
           <div className="prob__stats">
             {[
-              { v: "11 lakh+", t: "people affected across 28 districts, Assam, 3 July 2024", s: "Press report of an ASDMA bulletin" },
-              { v: "7 days", t: "Jalapur primary health centre, Cachar: outpatient department under floodwater, medicines washed away (May 2022)", s: "Field report" },
+              { v: "11 lakh+", t: "people affected across 28 districts, Assam, 3 July 2024", s: "Press report; ASDMA bulletin not yet checked" },
+              { v: "7 days", t: "Jalapur primary health centre, Cachar: floodwater stagnant over 40% of the outpatient department, medicines washed away (May 2022)", s: "Field report" },
               { v: "28.3%", t: "of Assam's land inundated at least once, 1998 to 2007", s: "NRSC atlas, via India Water Portal" },
             ].map((x, i) => (
               <Reveal key={x.v} delay={i * 0.08} className="stat">
