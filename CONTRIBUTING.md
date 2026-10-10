@@ -3,23 +3,30 @@
 Thanks for your interest in this project. It was started at the COMMIT FOR GOOD hackathon (October 2026) and is
 meant to be picked up and continued by others. This guide explains how to get set up and how changes are made.
 
-> The project's problem statement and code are still being defined. Setup commands below are filled in as the
-> code lands; until then, the branching and commit rules already apply.
+The project models how floods cut road access to health facilities in Cachar, Assam, and how limited medicine stock
+should then be allocated. Read [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) first: it explains the modules, the models and
+where the design is deliberately simple. Floods and stock levels are generated data and are declared as such; keep that
+distinction clear in anything you add.
 
 ## Getting started
 
 1. Fork the repository (or, if you are a team member, clone it).
-2. Install Python 3.10 or newer.
+2. Install Python 3.13 (the pinned versions in `requirements.txt` were developed on it).
 3. Create a virtual environment and install dependencies:
 
    ```bash
    python -m venv .venv
    source .venv/bin/activate      # Windows: .venv\Scripts\activate
-   pip install -r requirements.txt   # added with the first code
+   pip install -r requirements.txt
    ```
 
-4. Copy `.env.example` to `.env` and fill in any values you need. Never commit `.env`.
-5. Run the tests (once they exist): `pytest`.
+4. Run the tests: `pytest` (44 tests). The cleaned data and generated scenarios are committed, so nothing needs
+   downloading.
+5. For the web app, install Node 20 or newer, then `cd web && npm install`. `python -m floodready serve` starts the API
+   on http://localhost:8000 and `npm run dev` serves the app with hot reload on http://localhost:5173 (it proxies `/api`).
+   `npm run build` type-checks and builds.
+6. `.env.example` currently has no variables, because nothing needs a key. If you add one, add its name there and never
+   commit `.env`.
 
 ## Branching: one workflow, one branch
 
