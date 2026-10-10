@@ -3,8 +3,8 @@
 Everything this project uses that we did not write is listed here, with its source and licence. Our own code is
 MIT-licensed (see [LICENSE](LICENSE)); the items below keep their own terms.
 
-> This file is updated in the same pull request that introduces each item. No borrowed code or models have been
-> added yet.
+> This file is updated in the same pull request that introduces each item. No code has been copied from other
+> projects; the libraries, fonts and data below are used under their own licences.
 
 ## Event and reference material
 
@@ -15,7 +15,7 @@ MIT-licensed (see [LICENSE](LICENSE)); the items below keep their own terms.
 
 | What | Where it is used | Source | Licence |
 |---|---|---|---|
-| *none yet* | | | |
+| *none: all code in this repository was written for this project (see AI assistance below)* | | | |
 
 ## Data
 
@@ -32,11 +32,45 @@ alongside it.
 
 ## Models and APIs
 
-| Model / API | How it is used | Source | Licence / terms |
-|---|---|---|---|
-| *none yet* | | | |
+No AI model or external API is called when the software runs. The calculator computes everything with the algorithms in
+`floodready/` (shortest paths, an integer programme, bootstrap statistics), and `.env.example` has no variables.
+
+## AI assistance in building this project
+
+Claude (Anthropic), used through Claude Code, wrote the network, access-loss, allocation, evaluation and API code, the web app
+and the tests, retrieved the open data files, wrote and ran the cleaning, audit and scenario-generation scripts, and drafted
+the documentation and the Round 1 brief. The team set the direction, chose the problem, set the goals and the git rules,
+approved each data download, decided what to keep, cut and defer, and accepts responsibility for the submission. The same
+division of work is set out in the Evidence page of the web app.
 
 ## Libraries
 
-Direct dependencies are pinned in `requirements.txt`: geopandas, shapely, pyogrio, pyproj, rasterio, networkx,
-numpy, pandas, scipy and pillow. Each keeps its own licence.
+### Python (`requirements.txt`)
+
+| Library | Used for | Licence |
+|---|---|---|
+| geopandas, shapely, pyogrio, pyproj | Reading the road, village and facility layers; geometry; coordinate transforms | BSD-3-Clause (geopandas, shapely), MIT (pyogrio, pyproj) |
+| rasterio, pillow | Reading terrain tiles when building flood features | BSD-3-Clause (rasterio), HPND (pillow) |
+| numpy, pandas, scipy | Arrays and tables; sparse shortest paths (Dijkstra); the integer programme (HiGHS via `scipy.optimize.milp`); statistics | BSD-3-Clause |
+| fastapi, uvicorn | The calculator API | MIT (fastapi), BSD-3-Clause (uvicorn) |
+| matplotlib | Figures in `results/figures/` | Matplotlib licence (PSF-based) |
+| pytest, httpx | Tests | MIT (pytest), BSD-3-Clause (httpx) |
+| networkx | Pinned in `requirements.txt` but not imported by the current code | BSD-3-Clause |
+
+### Web app (`web/package.json`)
+
+| Library | Used for | Licence |
+|---|---|---|
+| react, react-dom, react-router-dom | Interface and routing | MIT |
+| d3 | Scales, shapes and geometry helpers under hand-written SVG charts | ISC |
+| motion | Animation | MIT |
+| lenis | Smooth scrolling | MIT |
+| zustand | State | MIT |
+| vite, @vitejs/plugin-react | Build and dev server | MIT |
+| typescript | Type checking | Apache-2.0 |
+
+### Fonts (self-hosted through `@fontsource` packages)
+
+Fraunces, Inter Tight and JetBrains Mono, each under the SIL Open Font Licence 1.1.
+
+Each keeps its own licence; the table is a summary and the library's own licence file governs.
